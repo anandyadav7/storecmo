@@ -1,0 +1,20 @@
+# StoreCMO
+
+> StoreCMO is an AI CMO for ecommerce, in development. It is being built to give lean ecommerce teams the strategic thinking and execution capability of a marketing team without the overhead of hiring a large one: marketing strategy, ecommerce SEO, content, competitor research, conversion optimization, paid acquisition, retention, and growth opportunities.
+
+## Primary pages
+
+- https://storecmo.com/ : Homepage, positioning, and waitlist.
+- https://storecmo.com/product : What StoreCMO is being built to do, and what it will not be.
+- https://storecmo.com/blog : The StoreCMO Playbook, free guides on ecommerce marketing for lean teams.
+- https://storecmo.com/about : Why StoreCMO exists and who is building it.
+- https://storecmo.com/contact : Contact form.
+- https://storecmo.com/feed.xml : RSS feed of new playbook articles.
+
+## Status
+
+In development. The product is not yet available. The playbook is live. The waitlist is open.
+
+## Topics covered
+
+Ecommerce marketing strategy, ecommerce SEO, Shopify marketing, conversion rate optimization, paid acquisition, retention and lifecycle email, competitor analysis, AI marketing for online stores, ecommerce growth.
