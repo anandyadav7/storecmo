@@ -1,6 +1,6 @@
 # StoreCMO.com
 
-Marketing and content website for **StoreCMO**, an AI CMO for ecommerce that is in development. This repository is the public site only: positioning, the playbook (blog), about, contact, and a waitlist. It is not the product.
+Marketing and content website for **StoreCMO**, an AI CMO for ecommerce that is in development. This repository is the public site only: positioning, the playbook (blog), free tools, about, contact, and a waitlist. It is not the product.
 
 ## Stack
 
@@ -40,16 +40,22 @@ app/
   blog/page.tsx         playbook index
   blog/[slug]/page.tsx  article page: Article + Breadcrumb + FAQ JSON-LD, TOC, related posts
   blog/[slug]/opengraph-image.tsx   generated per-article OG image
+  tools/page.tsx        free tools index (CollectionPage + ItemList JSON-LD)
+  tools/[slug]/page.tsx tool page: WebApplication + Breadcrumb + FAQ JSON-LD, explainer, related posts
+  tools/[slug]/opengraph-image.tsx  generated per-tool OG image
   about/page.tsx, contact/page.tsx, not-found.tsx
   actions.ts            Server Actions for the waitlist and contact forms
   sitemap.ts, robots.ts, feed.xml/route.ts, opengraph-image.tsx, icon.tsx
 components/             header/nav, footer, forms, markdown renderer, post list, breadcrumbs, CTA band, JSON-LD
+components/tools/       client components for the free tools + shared field/result primitives
 content/blog/*.md       articles (frontmatter + markdown)
 lib/
   site.ts               site config: name, URL, author, navigation, social
   blog.ts               read + parse posts, reading time, date formatting
   markdown.ts           markdown subset parser, FAQ extraction, plain-text helper
-  schema.ts             schema.org builders (Organization, Person, WebSite, Article, Breadcrumb, FAQ, WebPage)
+  tools.ts              free-tools registry: slug, copy, FAQ, related posts per tool
+  calculators.ts        pure calculation logic behind the tools (fully unit-tested)
+  schema.ts             schema.org builders (Organization, Person, WebSite, Article, Breadcrumb, FAQ, WebPage, WebApplication, ItemList)
   validation.ts         form validation shared by the Server Actions
   submissions.ts        delivers submissions to a configurable webhook
 public/                 logo SVG, llms.txt
@@ -88,6 +94,10 @@ Answer paragraph(s).
 
 The article page, sitemap, RSS feed, homepage list, OG image, and structured data all update automatically.
 
+## Adding a free tool
+
+The tools at `/tools` are pure client-side calculators and generators — no backend, no AI calls, nothing typed into them leaves the browser. To add one: put the calculation as a pure function in `lib/calculators.ts` (with tests in `tests/calculators.test.ts`), add the page content (name, description, formula, sections, FAQ, related posts) to the registry in `lib/tools.ts`, build the interactive widget in `components/tools/`, and map its slug in `components/tools/tool-widget.tsx`. The index page, sitemap, OG image, and structured data follow from the registry.
+
 ## Environment
 
 | Variable | Purpose |
@@ -107,7 +117,7 @@ Forms are progressively enhanced Server Actions: they validate on the server, in
 - Per-page `<title>`, meta description, canonical URL, Open Graph and Twitter cards
 - Generated OG images for the site and every article
 - `sitemap.xml`, `robots.txt`, `feed.xml`, `llms.txt`
-- JSON-LD: Organization, Person, WebSite (global); WebPage/AboutPage/ContactPage/CollectionPage; BreadcrumbList; Article + FAQPage on posts
+- JSON-LD: Organization, Person, WebSite (global); WebPage/AboutPage/ContactPage/CollectionPage; BreadcrumbList; Article + FAQPage on posts; WebApplication + FAQPage on tools; ItemList on the tools index
 - Articles open with a direct answer, use question headings, and carry an FAQ section
 
 ## Deploying

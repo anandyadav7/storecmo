@@ -98,7 +98,10 @@ export function articleSchema(post: BlogPost) {
 }
 
 export function faqSchema(post: BlogPost) {
-  const items = extractFaq(post.content);
+  return faqPageSchema(extractFaq(post.content));
+}
+
+export function faqPageSchema(items: Array<{ question: string; answer: string }>) {
   if (items.length === 0) return null;
   return {
     "@context": "https://schema.org",
@@ -107,6 +110,36 @@ export function faqSchema(post: BlogPost) {
       "@type": "Question",
       name: item.question,
       acceptedAnswer: { "@type": "Answer", text: item.answer },
+    })),
+  };
+}
+
+export function webApplicationSchema(input: { name: string; description: string; path: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: input.name,
+    description: input.description,
+    url: absoluteUrl(input.path),
+    applicationCategory: "BusinessApplication",
+    operatingSystem: "Any",
+    browserRequirements: "Requires JavaScript",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    isPartOf: { "@id": WEBSITE_ID },
+    publisher: { "@id": ORGANIZATION_ID },
+    inLanguage: "en-US",
+  };
+}
+
+export function itemListSchema(items: Array<{ name: string; path: string }>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      url: absoluteUrl(item.path),
     })),
   };
 }

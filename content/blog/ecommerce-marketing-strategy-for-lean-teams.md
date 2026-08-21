@@ -2,7 +2,7 @@
 title: The Complete Ecommerce Marketing Strategy for Lean Teams
 description: A practical, one-page approach to ecommerce marketing strategy for stores run by one or two people. Where growth comes from, which channels to commit to, and what to measure every week.
 publishedAt: 2026-08-20
-updatedAt: 2026-08-20
+updatedAt: 2026-08-22
 category: Ecommerce marketing
 tags: ecommerce marketing, marketing strategy, ecommerce growth, lean teams
 seoTitle: The Complete Ecommerce Marketing Strategy for Lean Teams
@@ -99,6 +99,8 @@ The scorecard should fit on one screen and take ten minutes to read. Here is a s
 - Revenue from email and SMS as a share of total
 - Blended acquisition cost, or marketing efficiency ratio, if you run paid
 - Contribution margin after marketing, at least monthly
+
+Most of these are one division on numbers you already have. The [free tools](/tools) section does the arithmetic for [average order value](/tools/average-order-value-calculator), [contribution margin](/tools/ecommerce-profit-margin-calculator), and the [LTV:CAC ratio](/tools/cac-ltv-ratio-calculator) if you want it done for you.
 
 Review the scorecard every week at the same time. Once a month, ask the bigger question: is the lever you chose in Step 1 moving? If it is not moving after a quarter of focused work, change the approach before you change the lever.
 

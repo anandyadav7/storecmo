@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import CtaBand from "@/components/cta-band";
 import JsonLd from "@/components/json-ld";
+import PlatformMarquee from "@/components/platform-marquee";
 import PostList from "@/components/post-list";
 import WaitlistForm from "@/components/waitlist-form";
 import { getAllPosts } from "@/lib/blog";
@@ -95,6 +96,8 @@ export default function HomePage() {
           <p className="ledger__foot">StoreCMO is being built to answer these for your store, and then help you act on the answers.</p>
         </aside>
       </section>
+
+      <PlatformMarquee />
 
       <section className="section section-rule" aria-labelledby="audience-heading">
         <div className="shell">

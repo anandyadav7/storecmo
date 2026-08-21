@@ -2,7 +2,7 @@
 title: How to Build an Ecommerce Marketing Strategy With a Small Budget
 description: With a small budget, ecommerce marketing is about sequencing. Fix conversion first, then retention, then owned traffic, and only then paid. Here is the order, the reasoning, and how to split the money.
 publishedAt: 2026-08-20
-updatedAt: 2026-08-20
+updatedAt: 2026-08-22
 category: Ecommerce growth
 tags: ecommerce marketing, small budget, conversion optimization, retention, paid acquisition
 seoTitle: How to Build an Ecommerce Marketing Strategy With a Small Budget
@@ -39,7 +39,7 @@ Conversion work costs time rather than money, which makes it the right place to 
 - **Speed and mobile.** Most of your traffic is on a phone. Test the full path from a product page to a completed order on a mid-range phone over mobile data. If anything makes you wait or pinch-zoom, it is costing you orders.
 - **Site search and navigation.** If your store has more than a few dozen products, check what people search for on your site and whether the results make sense. No-result searches are a list of products to add or synonyms to fix.
 - **Checkout.** Guest checkout, the payment methods your customers actually use, and no surprises on the final step. Every extra field and every surprise is a place to lose the sale.
-- **Offer structure.** A free-shipping threshold slightly above your average order, a bundle of the things people buy together, a first-order incentive in exchange for an email. These raise order value and build the list you will need in Stage 2.
+- **Offer structure.** A [free-shipping threshold](/tools/free-shipping-threshold-calculator) slightly above your average order, a bundle of the things people buy together, a first-order incentive in exchange for an email. These raise order value and build the list you will need in Stage 2.
 
 Measure conversion rate and add-to-cart rate on your top five landing pages before and after. The changes above are rarely dramatic individually; together they are often the difference between paid media that works and paid media that does not.
 
@@ -72,7 +72,7 @@ Once the site converts and existing customers come back, paid media can work on 
 
 1. **Start with demand that already exists.** Branded search, so competitors do not buy your name out from under you, and retargeting for people who visited and did not buy. Both are small, cheap, and easy to measure.
 2. **Then one prospecting test.** One channel, one audience, a handful of creatives, for long enough to judge. Write down the stopping rule before you start: the cost per order above which you will turn it off.
-3. **Know your maximum acquisition cost before you spend.** Work out contribution margin on a typical first order, add the margin you can reasonably expect from repeat orders in the first few months, and decide what share of that you are willing to pay to acquire a customer. That number is the ceiling for every campaign.
+3. **Know your maximum acquisition cost before you spend.** Work out contribution margin on a typical first order, add the margin you can reasonably expect from repeat orders in the first few months, and decide what share of that you are willing to pay to acquire a customer. That number is the ceiling for every campaign. The [break-even ROAS calculator](/tools/break-even-roas-calculator) does the first half of that arithmetic from your price and costs.
 4. **Spend on creative, not on targeting tricks.** On most platforms the creative is the targeting. Show the product clearly, say who it is for, and let the platform find them. Rotate creative before you touch audiences.
 5. **Measure blended, not just in-platform.** Platform dashboards flatter themselves. Watch total marketing spend against total new-customer revenue, and watch whether organic and direct traffic rise alongside paid, which is often where the real effect shows.
 

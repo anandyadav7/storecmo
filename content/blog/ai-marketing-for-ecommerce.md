@@ -2,7 +2,7 @@
 title: "AI Marketing for Ecommerce: What Store Owners Actually Need"
 description: Most stores do not need more AI-generated content. They need help with the thinking that comes before it. Where AI is genuinely useful in ecommerce marketing, where to be careful, and how to start this month.
 publishedAt: 2026-08-20
-updatedAt: 2026-08-20
+updatedAt: 2026-08-22
 category: AI marketing
 tags: AI marketing, AI CMO, ecommerce marketing, marketing strategy
 seoTitle: "AI Marketing for Ecommerce: What Store Owners Actually Need"
@@ -47,7 +47,7 @@ A useful way to evaluate any AI marketing tool, or your own use of a general mod
 | Decision | Ranks options with reasoning; tells you what matters | "Fixing the mobile collection layout is worth more this month than the new ad campaign, because…" | Very few |
 | Execution | Produces the work | Product descriptions, email copy, ad variations, briefs | Almost all |
 
-Most AI marketing products live in the execution layer because it is the easiest to build and the easiest to demo. The layer most small teams are missing is the middle one: somebody, or something, whose job is to look at the analysis and decide what to do this month. That is why a store can have five AI tools and still feel like nobody is running marketing.
+Most AI marketing products live in the execution layer because it is the easiest to build and the easiest to demo. The layer most small teams are missing is the middle one: somebody, or something, whose job is to look at the analysis and decide what to do this month. That is why a store can have five AI tools and still feel like nobody is running marketing. It is also worth noticing that some execution jobs do not need a model at all: template-driven tools like a [meta title and description generator](/tools/meta-title-description-generator) cover the structured, repetitive end of the work for free.
 
 ## What an AI CMO means, and how it differs from a chatbot or a copy tool
 

@@ -25,7 +25,7 @@ A marketing + content site for StoreCMO, an AI CMO for ecommerce that is **in de
 | `--border` | `#e3dfd6` | hairlines |
 | `--accent` | `#0e6b43` | the one accent: deep commerce green (growth / "order confirmed"), distinct from ZeroCMO's lime |
 
-Type: **Instrument Sans** (display + body, tight-tracked headlines at 600) and **DM Mono** for small labels (eyebrows, ledger labels, metadata) — a nod to SKUs, receipts, order numbers. 4px radii, hairline rules, no gradients/glass/3D/illustration, no animation beyond hover/focus transitions. `prefers-reduced-motion` respected.
+Type: **Instrument Sans** (display + body, tight-tracked headlines at 600) and **DM Mono** for small labels (eyebrows, ledger labels, metadata) — a nod to SKUs, receipts, order numbers. 4px radii, hairline rules, no gradients/glass/3D/illustration, no animation beyond hover/focus transitions. `prefers-reduced-motion` respected. One deliberate motion exception (owner request, 2026-08-22): the homepage platform marquee — a CSS-only scrolling strip of platform names under the hero, text not logos, phrased "being built for stores on" to stay honest about status; pauses on hover and renders static under reduced motion.
 
 **Signature element:** the homepage hero pairs the thesis ("Your AI CMO for ecommerce.") with a white "question ledger" listing the eight questions an ecommerce CMO answers every week (Strategy, SEO, Content, Competitors, Conversion, Paid, Retention, Growth). It communicates the job StoreCMO is being built to do without faking a product screenshot.
 
@@ -33,7 +33,11 @@ Structural devices encode meaning: numbered steps only where order matters (the 
 
 ## Pages
 
-`/` hero + waitlist, ledger, who it's for, how it's designed to work, playbook (latest 3), CTA band · `/product` scope in development, principles, status · `/blog` playbook index · `/blog/[slug]` article with TOC, FAQ schema, related, CTA · `/about` · `/contact` form · `404`.
+`/` hero + waitlist, ledger, who it's for, how it's designed to work, playbook (latest 3), CTA band · `/product` scope in development, principles, status · `/blog` playbook index · `/blog/[slug]` article with TOC, FAQ schema, related, CTA · `/tools` free-tools index · `/tools/[slug]` interactive tool + formula explainer + FAQ schema + related posts · `/about` · `/contact` form · `404`.
+
+## Free tools (added 2026-08-22)
+
+Six client-side tools as an SEO/lead-gen play, from the competitive research in the "Free Tools Opportunity Brief" artifact: profit margin, break-even ROAS, CAC:LTV ratio, AOV, free-shipping threshold calculators, and a template-driven meta title/description generator. Deliberate constraints: pure browser-side maths (no backend, no AI calls, nothing typed is transmitted — this keeps the "marketing site only" boundary); a registry (`lib/tools.ts`) drives pages/sitemap/schema; calculation logic lives in `lib/calculators.ts` under unit tests; copy never invents benchmarks (the 3:1 LTV:CAC heuristic is labeled a rule of thumb). Each tool page carries the same explainer + FAQ + interlinking treatment as articles so pages rank on long-tail phrasing rather than shipping thin.
 
 ## SEO / AEO / GEO
 
