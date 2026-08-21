@@ -14,22 +14,26 @@ A marketing + content site for StoreCMO, an AI CMO for ecommerce that is **in de
 - **Server Actions** for forms, forwarding to a configurable webhook (`WAITLIST_WEBHOOK_URL`, `CONTACT_WEBHOOK_URL`). No database. Honeypot + server validation. Progressive enhancement: works without client JS.
 - **`node:test`** for unit tests on the pure modules (blog parsing, markdown, validation). No test framework.
 
-## Visual system
+## Visual system — "Soft Commerce" (redesigned 2026-08-22)
+
+The original launch design was a warm-paper "receipt/ledger" system (Instrument Sans + DM Mono, deep green `#0e6b43`, 4px radii, hairline rules). On 2026-08-22 the owner ran a five-direction art-direction exploration on a design canvas ("StoreCMO Homepage" artifact) and chose **Soft Commerce**: friendly modern SaaS — familiar and reassuring to Shopify-era merchants, conversion-first. Its known tradeoff, accepted at the time: it is the most conventional of the five directions explored.
 
 | Token | Value | Role |
 | --- | --- | --- |
-| `--bg` | `#f7f5f0` | warm off-white page |
-| `--surface` | `#ffffff` | white content panels |
-| `--ink` | `#15140f` | near-black type |
-| `--muted` | `#6b675e` | metadata |
-| `--border` | `#e3dfd6` | hairlines |
-| `--accent` | `#0e6b43` | the one accent: deep commerce green (growth / "order confirmed"), distinct from ZeroCMO's lime |
+| `--bg` | `#f3f5f0` | light warm-green page |
+| `--surface` | `#ffffff` | white cards, soft shadows |
+| `--ink` | `#1c211b` | near-black type, warm green cast |
+| `--muted` | `#8a927f` | metadata |
+| `--border` | `#dde3d9` | hairlines and input borders |
+| `--accent` | `#0f8a5f` | primary: fresh commerce green |
+| `--peach` | `#ff8a5c` | secondary: warm peach (header CTA, highlights) |
+| `--band` | `#103a2a` | deep green CTA band card |
 
-Type: **Instrument Sans** (display + body, tight-tracked headlines at 600) and **DM Mono** for small labels (eyebrows, ledger labels, metadata) — a nod to SKUs, receipts, order numbers. 4px radii, hairline rules, no gradients/glass/3D/illustration, no animation beyond hover/focus transitions. `prefers-reduced-motion` respected. One deliberate motion exception (owner request, 2026-08-22): the homepage platform marquee — a CSS-only scrolling strip of platform names under the hero, text not logos, phrased "being built for stores on" to stay honest about status; pauses on hover and renders static under reduced motion.
+Type: **Bricolage Grotesque** (display: headlines, card titles, wordmark) + **Figtree** (body, labels) + **DM Mono** kept only for code blocks, tool formulas, and character counts. Pill radii on buttons/inputs/chips (999px), 20px card radius, soft shadows instead of hairline card borders. Mono-uppercase labels became rounded chips (accent-soft green or white with border). The header is a floating white pill; the CTA band is a rounded deep-green card. `prefers-reduced-motion` respected. One deliberate motion element (owner request, 2026-08-22): the homepage platform marquee — a CSS-only scrolling strip of platform-name chips under the hero, text not logos, phrased "being built for stores on" to stay honest about status; pauses on hover and renders static under reduced motion.
 
-**Signature element:** the homepage hero pairs the thesis ("Your AI CMO for ecommerce.") with a white "question ledger" listing the eight questions an ecommerce CMO answers every week (Strategy, SEO, Content, Competitors, Conversion, Paid, Retention, Growth). It communicates the job StoreCMO is being built to do without faking a product screenshot.
+**Signature element:** the homepage hero pairs the thesis ("Your AI CMO for ecommerce.", with a peach highlight wash on "AI CMO") with a white soft-shadow card listing the eight questions an ecommerce CMO answers every week (Strategy, SEO, Content, Competitors, Conversion, Paid, Retention, Growth). It communicates the job StoreCMO is being built to do without faking a product screenshot.
 
-Structural devices encode meaning: numbered steps only where order matters (the "how it works" sequence); mono labels only for classification (discipline, category, status).
+Structural devices encode meaning: numbered circle badges only where order matters (the "how it works" sequence); chips only for classification (discipline, category, status).
 
 ## Pages
 

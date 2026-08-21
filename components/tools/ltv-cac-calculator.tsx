@@ -4,12 +4,22 @@ import { useState } from "react";
 import { ltvCac } from "@/lib/calculators";
 import { money, num, NumberField, ResultRow, ToolCard } from "@/components/tools/fields";
 
+const defaults = { aov: "60", margin: "55", frequency: "3", lifespan: "2", cac: "35" };
+
 export default function LtvCacCalculator() {
-  const [aov, setAov] = useState("60");
-  const [margin, setMargin] = useState("55");
-  const [frequency, setFrequency] = useState("3");
-  const [lifespan, setLifespan] = useState("2");
-  const [cac, setCac] = useState("35");
+  const [aov, setAov] = useState(defaults.aov);
+  const [margin, setMargin] = useState(defaults.margin);
+  const [frequency, setFrequency] = useState(defaults.frequency);
+  const [lifespan, setLifespan] = useState(defaults.lifespan);
+  const [cac, setCac] = useState(defaults.cac);
+
+  const reset = () => {
+    setAov(defaults.aov);
+    setMargin(defaults.margin);
+    setFrequency(defaults.frequency);
+    setLifespan(defaults.lifespan);
+    setCac(defaults.cac);
+  };
 
   const inputs = {
     averageOrderValue: num(aov),
@@ -52,6 +62,7 @@ export default function LtvCacCalculator() {
         </>
       }
       note="Example numbers — replace them with your store's real history. Runs entirely in your browser; nothing is stored or sent anywhere."
+      onReset={reset}
     />
   );
 }

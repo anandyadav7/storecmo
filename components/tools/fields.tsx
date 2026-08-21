@@ -60,7 +60,7 @@ export function NumberField({
   );
 }
 
-export function ToolCard({ inputs, results, note }: { inputs: ReactNode; results: ReactNode; note?: string }) {
+export function ToolCard({ inputs, results, note, onReset }: { inputs: ReactNode; results: ReactNode; note?: string; onReset?: () => void }) {
   return (
     <div className="tool-card">
       <div className="tool-card__grid">
@@ -69,7 +69,14 @@ export function ToolCard({ inputs, results, note }: { inputs: ReactNode; results
           {results}
         </div>
       </div>
-      <p className="tool-card__foot">{note ?? "Runs entirely in your browser. Nothing you type is stored or sent anywhere."}</p>
+      <div className="tool-card__foot">
+        <span>{note ?? "Runs entirely in your browser. Nothing you type is stored or sent anywhere."}</span>
+        {onReset && (
+          <button type="button" className="button button--ghost button--sm" onClick={onReset}>
+            Reset
+          </button>
+        )}
+      </div>
     </div>
   );
 }

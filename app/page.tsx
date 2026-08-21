@@ -68,7 +68,7 @@ export default function HomePage() {
             <span className="status-dot" aria-hidden="true" />
             In development · For ecommerce brands
           </p>
-          <h1 className="h1" id="hero-heading">Your AI CMO for ecommerce.</h1>
+          <h1 className="h1" id="hero-heading">Your <span className="h1-highlight">AI CMO</span> for ecommerce.</h1>
           <p className="lead">
             StoreCMO helps lean ecommerce teams find growth opportunities, build better marketing strategies, and execute faster with AI.
           </p>

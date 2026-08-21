@@ -7,7 +7,7 @@ Marketing and content website for **StoreCMO**, an AI CMO for ecommerce that is 
 - [Next.js 16](https://nextjs.org) (App Router, TypeScript, React Server Components)
 - Plain CSS with a token system in `app/globals.css` (no Tailwind, no UI kit)
 - Markdown articles in `content/blog/` parsed by a small zero-dependency parser (`lib/markdown.ts`)
-- `next/font` self-hosted Instrument Sans + DM Mono
+- `next/font` self-hosted Bricolage Grotesque (display) + Figtree (body) + DM Mono (code/formulas)
 - Unit tests with Node's built-in test runner (`node:test`), no test framework dependency
 
 No database, auth, analytics, or third-party scripts.

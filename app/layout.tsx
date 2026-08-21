@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { DM_Mono, Instrument_Sans } from "next/font/google";
+import { Bricolage_Grotesque, DM_Mono, Figtree } from "next/font/google";
 import "./globals.css";
 import JsonLd from "@/components/json-ld";
 import SiteFooter from "@/components/site-footer";
@@ -7,7 +7,8 @@ import SiteHeader from "@/components/site-header";
 import { siteGraph } from "@/lib/schema";
 import { siteConfig } from "@/lib/site";
 
-const sans = Instrument_Sans({ subsets: ["latin"], variable: "--font-instrument", display: "swap" });
+const sans = Figtree({ subsets: ["latin"], variable: "--font-figtree", display: "swap" });
+const display = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage", display: "swap" });
 const mono = DM_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-dm-mono", display: "swap" });
 
 const defaultTitle = `${siteConfig.name} — ${siteConfig.tagline}`;
@@ -30,11 +31,11 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-export const viewport: Viewport = { themeColor: "#f7f5f0", width: "device-width", initialScale: 1 };
+export const viewport: Viewport = { themeColor: "#f3f5f0", width: "device-width", initialScale: 1 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${sans.variable} ${mono.variable}`}>
+    <html lang="en" className={`${sans.variable} ${display.variable} ${mono.variable}`}>
       <body>
         <a className="skip-link" href="#main">Skip to content</a>
         <SiteHeader />

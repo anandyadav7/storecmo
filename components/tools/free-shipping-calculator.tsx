@@ -4,10 +4,18 @@ import { useState } from "react";
 import { freeShippingThreshold } from "@/lib/calculators";
 import { money, num, NumberField, ResultRow, ToolCard } from "@/components/tools/fields";
 
+const defaults = { aov: "48", shipping: "8", margin: "50" };
+
 export default function FreeShippingCalculator() {
-  const [aov, setAov] = useState("48");
-  const [shipping, setShipping] = useState("8");
-  const [margin, setMargin] = useState("50");
+  const [aov, setAov] = useState(defaults.aov);
+  const [shipping, setShipping] = useState(defaults.shipping);
+  const [margin, setMargin] = useState(defaults.margin);
+
+  const reset = () => {
+    setAov(defaults.aov);
+    setShipping(defaults.shipping);
+    setMargin(defaults.margin);
+  };
 
   const inputs = { averageOrderValue: num(aov), shippingCost: num(shipping), grossMarginPct: num(margin) };
   const ready = Object.values(inputs).every(Number.isFinite);
@@ -33,6 +41,7 @@ export default function FreeShippingCalculator() {
         )
       }
       note="Example numbers — replace them with your store's. A starting point to test, not a guarantee. Runs entirely in your browser; nothing is stored or sent anywhere."
+      onReset={reset}
     />
   );
 }

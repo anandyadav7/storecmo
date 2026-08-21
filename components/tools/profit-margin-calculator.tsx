@@ -4,12 +4,22 @@ import { useState } from "react";
 import { profitMargin } from "@/lib/calculators";
 import { money, num, NumberField, percent, ResultRow, ToolCard } from "@/components/tools/fields";
 
+const defaults = { price: "60", cogs: "22", fees: "3", shipping: "7", adSpend: "12" };
+
 export default function ProfitMarginCalculator() {
-  const [price, setPrice] = useState("60");
-  const [cogs, setCogs] = useState("22");
-  const [fees, setFees] = useState("3");
-  const [shipping, setShipping] = useState("7");
-  const [adSpend, setAdSpend] = useState("12");
+  const [price, setPrice] = useState(defaults.price);
+  const [cogs, setCogs] = useState(defaults.cogs);
+  const [fees, setFees] = useState(defaults.fees);
+  const [shipping, setShipping] = useState(defaults.shipping);
+  const [adSpend, setAdSpend] = useState(defaults.adSpend);
+
+  const reset = () => {
+    setPrice(defaults.price);
+    setCogs(defaults.cogs);
+    setFees(defaults.fees);
+    setShipping(defaults.shipping);
+    setAdSpend(defaults.adSpend);
+  };
 
   const inputs = { price: num(price), cogs: num(cogs), fees: num(fees), shipping: num(shipping), adSpend: num(adSpend) };
   const ready = Object.values(inputs).every(Number.isFinite);
@@ -38,6 +48,7 @@ export default function ProfitMarginCalculator() {
         </>
       }
       note="Example numbers — replace them with one real order. Runs entirely in your browser; nothing is stored or sent anywhere."
+      onReset={reset}
     />
   );
 }

@@ -10,13 +10,23 @@ const pageTypes: Array<{ value: MetaTagInput["pageType"]; label: string }> = [
   { value: "article", label: "Article / guide" },
 ];
 
+const defaults = { pageType: "product" as MetaTagInput["pageType"], keyword: "organic cotton t-shirts", brand: "Your Store", differentiator: "" };
+
 export default function MetaTagGenerator() {
   const id = useId();
-  const [pageType, setPageType] = useState<MetaTagInput["pageType"]>("product");
-  const [keyword, setKeyword] = useState("organic cotton t-shirts");
-  const [brand, setBrand] = useState("Your Store");
-  const [differentiator, setDifferentiator] = useState("");
+  const [pageType, setPageType] = useState<MetaTagInput["pageType"]>(defaults.pageType);
+  const [keyword, setKeyword] = useState(defaults.keyword);
+  const [brand, setBrand] = useState(defaults.brand);
+  const [differentiator, setDifferentiator] = useState(defaults.differentiator);
   const [copied, setCopied] = useState<number | null>(null);
+
+  const reset = () => {
+    setPageType(defaults.pageType);
+    setKeyword(defaults.keyword);
+    setBrand(defaults.brand);
+    setDifferentiator(defaults.differentiator);
+    setCopied(null);
+  };
 
   const variants = metaTagVariants({ pageType, keyword, brand, differentiator });
 
@@ -85,7 +95,12 @@ export default function MetaTagGenerator() {
           )}
         </div>
       </div>
-      <p className="tool-card__foot">Template-built drafts to edit, not final copy. Runs entirely in your browser; nothing you type is stored or sent anywhere.</p>
+      <div className="tool-card__foot">
+        <span>Template-built drafts to edit, not final copy. Runs entirely in your browser; nothing you type is stored or sent anywhere.</span>
+        <button type="button" className="button button--ghost button--sm" onClick={reset}>
+          Reset
+        </button>
+      </div>
     </div>
   );
 }

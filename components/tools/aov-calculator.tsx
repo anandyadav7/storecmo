@@ -4,9 +4,16 @@ import { useState } from "react";
 import { averageOrderValue } from "@/lib/calculators";
 import { money, num, NumberField, ResultRow, ToolCard } from "@/components/tools/fields";
 
+const defaults = { revenue: "12500", orders: "250" };
+
 export default function AovCalculator() {
-  const [revenue, setRevenue] = useState("12500");
-  const [orders, setOrders] = useState("250");
+  const [revenue, setRevenue] = useState(defaults.revenue);
+  const [orders, setOrders] = useState(defaults.orders);
+
+  const reset = () => {
+    setRevenue(defaults.revenue);
+    setOrders(defaults.orders);
+  };
 
   const inputs = { revenue: num(revenue), orders: num(orders) };
   const ready = Object.values(inputs).every(Number.isFinite);
@@ -29,6 +36,7 @@ export default function AovCalculator() {
         />
       }
       note="Example numbers — replace them with a real month. Runs entirely in your browser; nothing is stored or sent anywhere."
+      onReset={reset}
     />
   );
 }
