@@ -41,7 +41,7 @@ Structural devices encode meaning: numbered circle badges only where order matte
 
 ## Free tools (added 2026-08-22)
 
-Six client-side tools as an SEO/lead-gen play, from the competitive research in the "Free Tools Opportunity Brief" artifact: profit margin, break-even ROAS, CAC:LTV ratio, AOV, free-shipping threshold calculators, and a template-driven meta title/description generator. Deliberate constraints: pure browser-side maths (no backend, no AI calls, nothing typed is transmitted — this keeps the "marketing site only" boundary); a registry (`lib/tools.ts`) drives pages/sitemap/schema; calculation logic lives in `lib/calculators.ts` under unit tests; copy never invents benchmarks (the 3:1 LTV:CAC heuristic is labeled a rule of thumb). Each tool page carries the same explainer + FAQ + interlinking treatment as articles so pages rank on long-tail phrasing rather than shipping thin.
+Seven client-side tools as an SEO/lead-gen play, from the competitive research in the "Free Tools Opportunity Brief" artifact: profit margin, break-even ROAS, CAC:LTV ratio, AOV, conversion and revenue lift, and free-shipping threshold calculators, plus a template-driven meta title/description generator. Deliberate constraints: pure browser-side maths (no backend, no AI calls, nothing typed is transmitted — this keeps the "marketing site only" boundary); a registry (`lib/tools.ts`) drives pages/sitemap/schema; calculation logic lives in `lib/calculators.ts` under unit tests; copy never invents benchmarks (the 3:1 LTV:CAC heuristic is labeled a rule of thumb). Each tool page carries the same explainer + FAQ + interlinking treatment as articles so pages rank on long-tail phrasing rather than shipping thin.
 
 ## SEO / AEO / GEO
 

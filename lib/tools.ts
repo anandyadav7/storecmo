@@ -240,6 +240,75 @@ export const tools: Tool[] = [
     keywords: ["average order value calculator", "aov calculator", "how to calculate aov", "increase average order value"],
   },
   {
+    slug: "ecommerce-conversion-rate-calculator",
+    name: "Ecommerce Conversion & Revenue Lift Calculator",
+    tag: "Conversion",
+    description:
+      "Calculate your ecommerce conversion rate and model how changes to conversion and average order value affect monthly orders and revenue. Free, no signup.",
+    intro:
+      "This calculator shows how much revenue your store produces at its current conversion rate and what a realistic improvement could be worth. Enter one month's sessions, conversion rate, and average order value, then set a target scenario. You will see the resulting orders, revenue, and incremental lift without pretending that a benchmark is a forecast for your store.",
+    formula:
+      "Revenue = sessions × conversion rate × average order value. Projected revenue lift = target-scenario revenue − current-scenario revenue.",
+    sections: [
+      {
+        heading: "Why model conversion rate and average order value together?",
+        body: [
+          "Because traffic does not become revenue through conversion alone. Sessions decide how many chances you have, conversion rate decides how many become orders, and average order value decides what each order is worth. A small improvement in both conversion and basket size compounds: more visitors buy, and each resulting order contributes more revenue.",
+          "The combined view also stops a common measurement mistake. A promotion can raise conversion while lowering AOV, or a bundle can raise AOV while making fewer visitors buy. Looking at revenue from both levers tells you whether the trade actually moved the store forward.",
+        ],
+      },
+      {
+        heading: "How should you choose a target conversion rate?",
+        body: [
+          "Start with your own recent baseline and model a modest change you could plausibly create and measure. Category, device mix, traffic source, price point, season, and whether you count all sessions make cross-store benchmarks unreliable. Your last comparable month is a better baseline than somebody else's average.",
+          "Use the target as a scenario, not a promise. If you are evaluating one checkout change, leave target AOV equal to current AOV so the model isolates conversion. If you are planning a bundle or free-shipping test, hold conversion steady first and see what the AOV change alone would produce.",
+        ],
+      },
+      {
+        heading: "What should you do with the projected lift?",
+        body: [
+          "Use it to size opportunities before you prioritise them. The lift shows the revenue available if the target scenario holds at the same traffic level; it does not prove that a specific redesign, app, or promotion will create that change. Compare the upside with the cost and effort of the test, then measure the real result against the same definitions and period used here.",
+          "Remember that this tool models revenue, not profit. If the target AOV comes from deeper discounts, free gifts, or higher fulfilment cost, run the projected order through the profit margin calculator before treating the lift as money you get to keep.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How do you calculate ecommerce conversion rate?",
+        answer:
+          "Divide orders by store sessions for the same period, then multiply by 100. For example, 200 orders from 10,000 sessions is a 2% conversion rate. Keep the traffic source and period consistent whenever you compare results.",
+      },
+      {
+        question: "What is a good ecommerce conversion rate?",
+        answer:
+          "There is no universal good rate. It changes with category, price, device, geography, traffic quality, and how analytics counts sessions and orders. Compare your store with its own historical baseline and aim for measured improvement without sacrificing margin or order value.",
+      },
+      {
+        question: "Should you change conversion rate and AOV at the same time?",
+        answer:
+          "For diagnosis, change one target at a time so you can see what each lever contributes. Use both together only when you are deliberately modeling a combined plan, such as improving checkout while launching bundles, and keep the assumptions visible.",
+      },
+      {
+        question: "Is projected revenue lift a forecast?",
+        answer:
+          "No. It is a scenario that holds monthly traffic constant and applies the target conversion rate and AOV you entered. Real results can change with traffic quality, seasonality, discounts, product mix, returns, and the implementation itself.",
+      },
+      {
+        question: "Does this calculator store my analytics data?",
+        answer:
+          "No. The calculation runs entirely in your browser. Nothing you enter is sent to a server, stored, or shared, and you do not need to connect your store or create an account.",
+      },
+    ],
+    related: ["ecommerce-marketing-strategy-for-lean-teams", "ecommerce-marketing-strategy-small-budget"],
+    keywords: [
+      "ecommerce conversion rate calculator",
+      "conversion rate calculator",
+      "revenue lift calculator",
+      "ecommerce revenue calculator",
+      "conversion rate revenue impact",
+    ],
+  },
+  {
     slug: "free-shipping-threshold-calculator",
     name: "Free Shipping Threshold Calculator",
     tag: "Pricing",

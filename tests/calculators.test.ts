@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import {
   averageOrderValue,
   breakEvenRoas,
+  conversionRevenueLift,
   freeShippingThreshold,
   ltvCac,
   metaTagVariants,
@@ -62,6 +63,52 @@ test("averageOrderValue divides revenue by orders", () => {
 
 test("averageOrderValue returns null when there are no orders", () => {
   assert.equal(averageOrderValue({ revenue: 12500, orders: 0 }), null);
+});
+
+test("conversionRevenueLift compares current and target conversion and AOV scenarios", () => {
+  const result = conversionRevenueLift({
+    sessions: 50000,
+    currentConversionRatePct: 2,
+    currentAverageOrderValue: 60,
+    targetConversionRatePct: 2.5,
+    targetAverageOrderValue: 66,
+  });
+  assert.deepEqual(result, {
+    currentOrders: 1000,
+    projectedOrders: 1250,
+    additionalOrders: 250,
+    currentRevenue: 60000,
+    projectedRevenue: 82500,
+    revenueLift: 22500,
+    revenueLiftPct: 37.5,
+  });
+});
+
+test("conversionRevenueLift reports zero lift when the scenarios match", () => {
+  const result = conversionRevenueLift({
+    sessions: 10000,
+    currentConversionRatePct: 2,
+    currentAverageOrderValue: 50,
+    targetConversionRatePct: 2,
+    targetAverageOrderValue: 50,
+  });
+  assert.equal(result?.additionalOrders, 0);
+  assert.equal(result?.revenueLift, 0);
+  assert.equal(result?.revenueLiftPct, 0);
+});
+
+test("conversionRevenueLift handles a zero baseline and rejects impossible inputs", () => {
+  const zeroBaseline = conversionRevenueLift({
+    sessions: 10000,
+    currentConversionRatePct: 0,
+    currentAverageOrderValue: 50,
+    targetConversionRatePct: 1,
+    targetAverageOrderValue: 50,
+  });
+  assert.equal(zeroBaseline?.revenueLift, 5000);
+  assert.equal(zeroBaseline?.revenueLiftPct, null);
+  assert.equal(conversionRevenueLift({ sessions: -1, currentConversionRatePct: 2, currentAverageOrderValue: 50, targetConversionRatePct: 3, targetAverageOrderValue: 50 }), null);
+  assert.equal(conversionRevenueLift({ sessions: 100, currentConversionRatePct: 101, currentAverageOrderValue: 50, targetConversionRatePct: 3, targetAverageOrderValue: 50 }), null);
 });
 
 test("freeShippingThreshold adds the margin-covering revenue to AOV and rounds up to 5", () => {

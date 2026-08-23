@@ -34,6 +34,34 @@ export function averageOrderValue(input: { revenue: number; orders: number }) {
   return input.orders > 0 ? input.revenue / input.orders : null;
 }
 
+export type ConversionRevenueLiftInput = {
+  sessions: number;
+  currentConversionRatePct: number;
+  currentAverageOrderValue: number;
+  targetConversionRatePct: number;
+  targetAverageOrderValue: number;
+};
+
+export function conversionRevenueLift(input: ConversionRevenueLiftInput) {
+  const ratesAreValid =
+    input.currentConversionRatePct >= 0 &&
+    input.currentConversionRatePct <= 100 &&
+    input.targetConversionRatePct >= 0 &&
+    input.targetConversionRatePct <= 100;
+  const valuesAreValid = input.sessions >= 0 && input.currentAverageOrderValue >= 0 && input.targetAverageOrderValue >= 0;
+  if (!ratesAreValid || !valuesAreValid) return null;
+
+  const currentOrders = input.sessions * (input.currentConversionRatePct / 100);
+  const projectedOrders = input.sessions * (input.targetConversionRatePct / 100);
+  const currentRevenue = currentOrders * input.currentAverageOrderValue;
+  const projectedRevenue = projectedOrders * input.targetAverageOrderValue;
+  const additionalOrders = projectedOrders - currentOrders;
+  const revenueLift = projectedRevenue - currentRevenue;
+  const revenueLiftPct = currentRevenue > 0 ? (revenueLift / currentRevenue) * 100 : null;
+
+  return { currentOrders, projectedOrders, additionalOrders, currentRevenue, projectedRevenue, revenueLift, revenueLiftPct };
+}
+
 export type FreeShippingThresholdInput = { averageOrderValue: number; shippingCost: number; grossMarginPct: number };
 
 export function freeShippingThreshold(input: FreeShippingThresholdInput) {

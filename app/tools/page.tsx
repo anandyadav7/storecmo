@@ -9,7 +9,7 @@ import { tools } from "@/lib/tools";
 
 const title = "Free ecommerce tools";
 const description =
-  "Free calculators and generators for ecommerce marketing: profit margin, break-even ROAS, LTV:CAC, AOV, free shipping thresholds, and meta tags. No signup, runs in your browser.";
+  "Free ecommerce calculators and generators for profit margin, break-even ROAS, conversion rate, revenue lift, LTV:CAC, AOV, shipping, and meta tags.";
 
 export const metadata: Metadata = pageMetadata({
   title,
@@ -34,7 +34,7 @@ export default function ToolsPage() {
         </p>
         <h1 className="h1">The numbers behind your marketing, worked out.</h1>
         <p className="lead">
-          Six free tools for the calculations every store keeps redoing in a spreadsheet: real profit margin, break-even ROAS, what a customer is worth, and where a free-shipping threshold should sit. Everything runs in your browser — nothing you type is stored or sent anywhere.
+          Free tools for the calculations every store keeps redoing in a spreadsheet: real profit margin, break-even ROAS, conversion and revenue lift, what a customer is worth, and where a free-shipping threshold should sit. Everything runs in your browser — nothing you type is stored or sent anywhere.
         </p>
       </section>
 

@@ -7,7 +7,7 @@
 - https://storecmo.com/ : Homepage, positioning, and waitlist.
 - https://storecmo.com/product : What StoreCMO is being built to do, and what it will not be.
 - https://storecmo.com/blog : The StoreCMO Playbook, free guides on ecommerce marketing for lean teams.
-- https://storecmo.com/tools : Free ecommerce tools that run in the browser, no signup: profit margin calculator, break-even ROAS calculator, CAC:LTV ratio calculator, average order value calculator, free shipping threshold calculator, and a meta title and description generator.
+- https://storecmo.com/tools : Free ecommerce tools that run in the browser, no signup: profit margin, break-even ROAS, CAC:LTV ratio, average order value, conversion and revenue lift, and free shipping threshold calculators, plus a meta title and description generator.
 - https://storecmo.com/about : Why StoreCMO exists and who is building it.
 - https://storecmo.com/contact : Contact form.
 - https://storecmo.com/feed.xml : RSS feed of new playbook articles.

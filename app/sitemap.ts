@@ -4,7 +4,7 @@ import { absoluteUrl } from "@/lib/site";
 import { tools } from "@/lib/tools";
 
 /** Bump when the tools section's content changes meaningfully. */
-const toolsUpdatedAt = "2026-08-22";
+const toolsUpdatedAt = "2026-08-24";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();

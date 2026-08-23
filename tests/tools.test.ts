@@ -9,11 +9,12 @@ const expectedSlugs = [
   "break-even-roas-calculator",
   "cac-ltv-ratio-calculator",
   "average-order-value-calculator",
+  "ecommerce-conversion-rate-calculator",
   "free-shipping-threshold-calculator",
   "meta-title-description-generator",
 ];
 
-test("the registry lists the six launch tools in order", () => {
+test("the registry lists the seven tools in order", () => {
   assert.deepEqual(tools.map((tool) => tool.slug), expectedSlugs);
 });
 
