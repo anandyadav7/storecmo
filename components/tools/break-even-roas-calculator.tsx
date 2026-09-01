@@ -35,23 +35,23 @@ export default function BreakEvenRoasCalculator() {
       }
       results={
         <>
-          <ResultRow label="Contribution margin" value={result ? money(result.contribution) : "—"} />
-          <ResultRow label="Margin of price" value={result ? percent(result.contributionMarginPct) : "—"} />
+          <ResultRow label="Contribution margin" value={result ? money(result.contribution) : "-"} />
+          <ResultRow label="Margin of price" value={result ? percent(result.contributionMarginPct) : "-"} />
           <ResultRow
             label="Break-even ROAS"
-            value={result ? (result.roas === null ? "n/a" : `${result.roas.toLocaleString("en-US", { maximumFractionDigits: 2 })}x`) : "—"}
+            value={result ? (result.roas === null ? "n/a" : `${result.roas.toLocaleString("en-US", { maximumFractionDigits: 2 })}x`) : "-"}
             primary
             detail={
               result
                 ? result.roas === null
-                  ? "There is no margin left to pay for ads — at these numbers no ROAS breaks even."
+                  ? "There is no margin left to pay for ads, so at these numbers no ROAS breaks even."
                   : "Below this, campaigns lose money on the first order. Set targets above it."
                 : undefined
             }
           />
         </>
       }
-      note="Example numbers — replace them with a real product. Runs entirely in your browser; nothing is stored or sent anywhere."
+      note="Example numbers. Replace them with a real product. Runs entirely in your browser; nothing is stored or sent anywhere."
       onReset={reset}
     />
   );

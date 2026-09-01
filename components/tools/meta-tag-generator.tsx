@@ -36,7 +36,7 @@ export default function MetaTagGenerator() {
       setCopied(index);
       setTimeout(() => setCopied(null), 1600);
     } catch {
-      // Clipboard unavailable (permissions, older browser) — the text stays selectable by hand.
+      // Clipboard unavailable (permissions, older browser). The text stays selectable by hand.
     }
   };
 

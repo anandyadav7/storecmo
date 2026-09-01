@@ -30,12 +30,12 @@ export default function AovCalculator() {
       results={
         <ResultRow
           label="Average order value"
-          value={ready ? (result === null ? "n/a" : money(result)) : "—"}
+          value={ready ? (result === null ? "n/a" : money(result)) : "-"}
           primary
           detail={ready && result === null ? "Order count has to be above zero." : "Use the same period for both numbers, and the same definition every time you measure."}
         />
       }
-      note="Example numbers — replace them with a real month. Runs entirely in your browser; nothing is stored or sent anywhere."
+      note="Example numbers. Replace them with a real month. Runs entirely in your browser; nothing is stored or sent anywhere."
       onReset={reset}
     />
   );

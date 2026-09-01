@@ -108,22 +108,22 @@ export function metaTagVariants(input: MetaTagInput): MetaVariant[] {
     product: [
       { title: `${heading} | ${brand}`, description: `Shop the ${keyword} from ${brand}. See details, materials, and sizing, and order yours today.${tail}` },
       { title: `Buy ${heading} Online | ${brand}`, description: `The ${keyword}, made by ${brand}. Everything you need to know before you buy, in one place.${tail}` },
-      { title: `${heading} — ${brand}`, description: `Looking for the right ${keyword}? ${brand} has it, with clear photos, honest specs, and easy checkout.${tail}` },
+      { title: `${heading} | ${brand}`, description: `Looking for the right ${keyword}? ${brand} has it, with clear photos, honest specs, and easy checkout.${tail}` },
     ],
     collection: [
       { title: `${heading} | ${brand}`, description: `Browse ${keyword} at ${brand}. Compare styles and prices, and find the one that fits.${tail}` },
       { title: `Shop ${heading} | ${brand}`, description: `${brand}'s full range of ${keyword}, in one collection. New pieces added regularly.${tail}` },
-      { title: `${heading} — Shop the Collection | ${brand}`, description: `Every ${keyword} option ${brand} carries, side by side, so you can choose quickly.${tail}` },
+      { title: `${heading}: Shop the Collection | ${brand}`, description: `Every ${keyword} option ${brand} carries, side by side, so you can choose quickly.${tail}` },
     ],
     homepage: [
       { title: `${brand} | ${heading}`, description: `${brand} is your home for ${keyword}. See what we make and why customers come back.${tail}` },
-      { title: `${brand} — ${heading}`, description: `Discover ${keyword} at ${brand}. Browse the range and find your next favourite.${tail}` },
+      { title: `${brand}: ${heading}`, description: `Discover ${keyword} at ${brand}. Browse the range and find your next favourite.${tail}` },
       { title: `${heading} by ${brand}`, description: `From first click to delivery, ${brand} makes shopping for ${keyword} simple.${tail}` },
     ],
     article: [
       { title: `${heading} | ${brand}`, description: `A practical guide to ${keyword} from the team at ${brand}. What to know, in plain language.${tail}` },
       { title: `${heading}: A Guide | ${brand}`, description: `${brand} explains ${keyword}: what matters, what doesn't, and how to decide.${tail}` },
-      { title: `${heading} — What to Know | ${brand}`, description: `Everything worth knowing about ${keyword}, written to answer the question you searched for.${tail}` },
+      { title: `${heading}: What to Know | ${brand}`, description: `Everything worth knowing about ${keyword}, written to answer the question you searched for.${tail}` },
     ],
   };
 

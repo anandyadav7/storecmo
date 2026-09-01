@@ -107,7 +107,7 @@ Review the scorecard every week at the same time. Once a month, ask the bigger q
 ## A one-page template you can copy
 
 ```text
-STORE MARKETING STRATEGY — Q_ 20__
+STORE MARKETING STRATEGY - Q_ 20__
 
 Growth lever this quarter:   [traffic | conversion | AOV | frequency]
 Why this lever:              [one sentence with the numbers]

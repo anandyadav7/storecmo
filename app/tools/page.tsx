@@ -34,7 +34,7 @@ export default function ToolsPage() {
         </p>
         <h1 className="h1">The numbers behind your marketing, worked out.</h1>
         <p className="lead">
-          Free tools for the calculations every store keeps redoing in a spreadsheet: real profit margin, break-even ROAS, conversion and revenue lift, what a customer is worth, and where a free-shipping threshold should sit. Everything runs in your browser — nothing you type is stored or sent anywhere.
+          Free tools for the calculations every store keeps redoing in a spreadsheet: real profit margin, break-even ROAS, conversion and revenue lift, what a customer is worth, and where a free-shipping threshold should sit. Everything runs in your browser, and nothing you type is stored or sent anywhere.
         </p>
       </section>
 
@@ -65,7 +65,7 @@ export default function ToolsPage() {
           </div>
           <div>
             <p className="lead">
-              These are the calculations StoreCMO is being built to run continuously for your store. Until it ships, they work fine by hand — each tool explains its formula, states its assumptions, and links to the playbook article that goes deeper.
+              These are the calculations StoreCMO is being built to run continuously for your store. Until it ships, they work fine by hand. Each tool explains its formula, states its assumptions, and links to the playbook article that goes deeper.
             </p>
             <p className="section-foot">
               <Link href="/blog" className="text-link">Read the playbook →</Link>

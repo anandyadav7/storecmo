@@ -27,7 +27,7 @@ If you read that table against our [three layers of AI marketing](/blog/ai-marke
 
 ## How is an AI CMO different from marketing automation or a dashboard?
 
-The difference is decision authority, not features. Marketing automation runs the workflow you designed: you build the abandoned-cart flow, set the triggers, and the platform follows your rules faithfully for years. CDP.com puts the split usefully — automation "follows a script," while an AI CMO "writes and rewrites the script."
+The difference is decision authority, not features. Marketing automation runs the workflow you designed: you build the abandoned-cart flow, set the triggers, and the platform follows your rules faithfully for years. CDP.com puts the split usefully: automation "follows a script," while an AI CMO "writes and rewrites the script."
 
 Dashboards sit further away again. A reporting tool tells you conversion fell on three collection pages. It does not tell you whether fixing them matters more this month than the ad test you were planning, and it never decides anything.
 
@@ -35,36 +35,36 @@ Agencies are the comparison most store owners are actually weighing, and the fai
 
 ## What can an AI CMO genuinely do well?
 
-**Read your data.** This is the strongest claim in the category and the least glamorous. [Improvado](https://improvado.io/blog/ai-cmo) describes an AI CMO as "an always-on analytical partner," pulling metrics and historical performance into one place and then surfacing patterns in plain language — its example is spotting that "paid social performance drops every third week of the month across all campaigns." Bloomreach's CMO, writing for the [MACH Alliance](https://machalliance.org/insights-hub/ai-s-role-in-e-commerce-transformation-a-cmo-s-perspective), makes the same point from the practitioner's side: AI "can analyze patterns in ways that humans simply can't," particularly where a person is limited by time rather than skill. For a store run by one person, this replaces the reconciliation, not the thinking.
+**Read your data.** This is the strongest claim in the category and the least glamorous. [Improvado](https://improvado.io/blog/ai-cmo) describes an AI CMO as "an always-on analytical partner," pulling metrics and historical performance into one place and then surfacing patterns in plain language. Its example is spotting that "paid social performance drops every third week of the month across all campaigns." Bloomreach's CMO, writing for the [MACH Alliance](https://machalliance.org/insights-hub/ai-s-role-in-e-commerce-transformation-a-cmo-s-perspective), makes the same point from the practitioner's side: AI "can analyze patterns in ways that humans simply can't," particularly where a person is limited by time rather than skill. For a store run by one person, this replaces the reconciliation, not the thinking.
 
-**Rank what to do first.** This is the function that separates an AI CMO from a reporting tool, and the one worth paying for. A real prioritisation output is specific: CDP.com's own sample says retention campaigns in one segment are "outperforming by 22%" and recommends moving $15K from an underperforming acquisition segment. The value is not the recommendation itself, it is the speed — a weak channel that would otherwise "draw budget for weeks until the next review" gets defunded now, and the freed spend starts compounding sooner. In a large catalogue the same logic applies to product and category pages, where small structural problems multiply across thousands of URLs.
+**Rank what to do first.** This is the function that separates an AI CMO from a reporting tool, and the one worth paying for. A real prioritisation output is specific: CDP.com's own sample says retention campaigns in one segment are "outperforming by 22%" and recommends moving $15K from an underperforming acquisition segment. The value is not the recommendation itself, it is the speed. A weak channel that would otherwise "draw budget for weeks until the next review" gets defunded now, and the freed spend starts compounding sooner. In a large catalogue the same logic applies to product and category pages, where small structural problems multiply across thousands of URLs.
 
-**Draft the work.** Descriptions, ad variations, subject lines, briefs, meta tags. Genuinely useful, entirely commoditised, and not a reason to buy anything expensive — plenty of it is [template work that needs no model at all](/tools/meta-title-description-generator).
+**Draft the work.** Descriptions, ad variations, subject lines, briefs, meta tags. Genuinely useful, entirely commoditised, and not a reason to buy anything expensive, and plenty of it is [template work that needs no model at all](/tools/meta-title-description-generator).
 
 ## Where does an AI CMO stop being useful?
 
-Strategy is the first place it thins out. Ranking ten opportunities by expected return is not a strategy; it is an input to one. A strategy makes a trade-off — short-term revenue against brand equity, acquisition cost against retention — and says which one you are choosing and why. The practical test for any product claiming this: does its output explain the trade-off it made, or does it hand you a task list and call it a plan? If you want the version of that plan a person writes, our [strategy guide for lean teams](/blog/ecommerce-marketing-strategy-for-lean-teams) is the one-page shape it should take.
+Strategy is the first place it thins out. Ranking ten opportunities by expected return is not a strategy; it is an input to one. A strategy makes a trade-off, whether that is short-term revenue against brand equity or acquisition cost against retention, and says which one you are choosing and why. The practical test for any product claiming this: does its output explain the trade-off it made, or does it hand you a task list and call it a plan? If you want the version of that plan a person writes, our [strategy guide for lean teams](/blog/ecommerce-marketing-strategy-for-lean-teams) is the one-page shape it should take.
 
-Judgment is where it stops entirely. Improvado names four limits directly: creative strategy, relationship building, causal reasoning, and ethical judgment — noting that if you tell a system to minimise cost per lead, "it will recommend tactics that achieve that goal" even when those tactics attract weak leads or break your brand guidelines.
+Judgment is where it stops entirely. Improvado names four limits directly: creative strategy, relationship building, causal reasoning, and ethical judgment, noting that if you tell a system to minimise cost per lead, "it will recommend tactics that achieve that goal" even when those tactics attract weak leads or break your brand guidelines.
 
-That last failure is not hypothetical. The [California Management Review](https://cmr.berkeley.edu/2026/06/the-algorithmic-cmo-why-governing-ai-is-now-a-core-marketing-competency/) documents two cases worth keeping in mind. Facebook's engagement-optimised "meaningful interactions" ranking rewarded outrage, because inflammatory posts reliably beat informative ones on the metric it was given. An AI-targeted malaria awareness campaign in India initially deprioritised rural, high-risk communities, because the algorithm optimised toward users who were "highly engaged, likely to click, and accessible" — not the people the campaign existed to reach. Both systems did exactly what they were told. The error was in the objective, and only a person can catch that.
+That last failure is not hypothetical. The [California Management Review](https://cmr.berkeley.edu/2026/06/the-algorithmic-cmo-why-governing-ai-is-now-a-core-marketing-competency/) documents two cases worth keeping in mind. Facebook's engagement-optimised "meaningful interactions" ranking rewarded outrage, because inflammatory posts reliably beat informative ones on the metric it was given. An AI-targeted malaria awareness campaign in India initially deprioritised rural, high-risk communities, because the algorithm optimised toward users who were "highly engaged, likely to click, and accessible", not the people the campaign existed to reach. Both systems did exactly what they were told. The error was in the objective, and only a person can catch that.
 
 A [Spencer Stuart](https://www.spencerstuart.com/research-and-insight/the-ai-reckoning-why-marketers-think-2026-is-a-make-or-break-year) survey of marketing leaders found universal agreement that human judgment remains critical. One respondent's framing is the useful one for a store owner: "It still takes human thinking to get what you need out of it."
 
 ## How much autonomy should you actually give it?
 
-This is where products differ most, and where the label tells you least. The range runs from systems that propose every action and wait for your approval, through systems that act automatically inside rules you pre-approved, to systems that push changes to live pages the same day they identify them. CDP.com frames it as a maturity ladder — task automation, then campaign autonomy within guardrails, then full strategic orchestration — and notes that "most organizations today are at Level 1-2."
+This is where products differ most, and where the label tells you least. The range runs from systems that propose every action and wait for your approval, through systems that act automatically inside rules you pre-approved, to systems that push changes to live pages the same day they identify them. CDP.com frames it as a maturity ladder, running from task automation to campaign autonomy within guardrails to full strategic orchestration, and notes that "most organizations today are at Level 1-2."
 
 Two questions decide where you should sit, and neither is about the software:
 
 1. **Would you notice a bad decision within a week?** A store with no dedicated marketer usually would not. Autonomy is only safe when someone is reviewing outcomes on a rhythm.
-2. **What is the blast radius?** Rewriting meta descriptions on 400 product pages is recoverable. Reallocating your ad budget, emailing your list, or changing prices is not, in the sense that matters — the money is spent and the customers have seen it.
+2. **What is the blast radius?** Rewriting meta descriptions on 400 product pages is recoverable. Reallocating your ad budget, emailing your list, or changing prices is not, in the sense that matters, because the money is spent and the customers have seen it.
 
 The reasonable starting position for a lean store is approval-gated on anything that spends money or reaches a customer, and automatic on nothing until you have watched its reasoning for a month and found it sound.
 
 ## Is a small store ready for an AI CMO?
 
-Most readiness checklists in this category were written for companies with analysts and a data team, so they need translating before they mean anything to a one-person store. The prerequisites underneath them still hold at any size. Improvado lists three: clean data infrastructure, clear strategic questions, and a commitment to actually act on what comes back — and notes that most organisations need two to four weeks of data cleanup and governance work before deployment. CDP.com is blunter about skipping it: without unified data, an AI CMO "makes strategic decisions on fragmented, incomplete information."
+Most readiness checklists in this category were written for companies with analysts and a data team, so they need translating before they mean anything to a one-person store. The prerequisites underneath them still hold at any size. Improvado lists three: clean data infrastructure, clear strategic questions, and a commitment to actually act on what comes back. It notes that most organisations need two to four weeks of data cleanup and governance work before deployment. CDP.com is blunter about skipping it: without unified data, an AI CMO "makes strategic decisions on fragmented, incomplete information."
 
 Translated for a store with no analyst, that comes down to three honest checks:
 
@@ -74,7 +74,7 @@ Translated for a store with no analyst, that comes down to three honest checks:
 
 There is one prerequisite none of the sources mention because enterprises already have it in a deck somewhere: a written page describing what your store is, who buys from it, your rough margins, and the lever you are pulling this quarter. Every system in this category is bounded by how much of your situation it knows, and that page is the cheapest way to raise the ceiling. If budget is your constraint, the [small-budget strategy guide](/blog/ecommerce-marketing-strategy-small-budget) covers what to sequence first.
 
-For full transparency: StoreCMO is being built as an AI CMO for ecommerce, and it is [in development](/product). This article would make the same argument if it were not — and the argument includes being sceptical of us too.
+For full transparency: StoreCMO is being built as an AI CMO for ecommerce, and it is [in development](/product). This article would make the same argument if it were not, and the argument includes being sceptical of us too.
 
 ## How should you evaluate one?
 
@@ -93,7 +93,7 @@ No, and the sources selling these products say so themselves. CDP.com's position
 
 ### Can you just buy AI CMO software?
 
-Not really, not yet. CDP.com is direct about it: "AI CMO" describes a capability tier, not a category you buy off the shelf. What vendors actually sell are the components — marketing agents, budget optimisation engines, decisioning layers — assembled to different depths. Judge the specific product against the five functions above rather than the label on its homepage.
+Not really, not yet. CDP.com is direct about it: "AI CMO" describes a capability tier, not a category you buy off the shelf. What vendors actually sell are the components: marketing agents, budget optimisation engines and decisioning layers, assembled to different depths. Judge the specific product against the five functions above rather than the label on its homepage.
 
 ### How long does an AI CMO take to set up?
 
@@ -101,7 +101,7 @@ Improvado puts typical enterprise implementation at eight to twelve weeks, cover
 
 ### Is an AI CMO worth it for a store doing modest revenue?
 
-It depends which function you need. If you need drafts, you can get those from a general model today for almost nothing. If you need someone to tell you what to work on next — which is the more common gap — that is worth paying for, but only from a product that can show its reasoning. Buying strategic software before you have a written strategy usually produces confident answers to questions you have not asked yet.
+It depends which function you need. If you need drafts, you can get those from a general model today for almost nothing. If you need someone to tell you what to work on next, which is the more common gap, that is worth paying for, but only from a product that can show its reasoning. Buying strategic software before you have a written strategy usually produces confident answers to questions you have not asked yet.
 
 ### What is the difference between an AI CMO and an AI agent?
 
@@ -109,4 +109,4 @@ Scope. An agent does a task: writing descriptions, adjusting bids, tagging produ
 
 ## Next step
 
-Before evaluating any product in this category, write the one page describing your store, and pick one recurring decision you would want help with — the email, the collection page, the next test. Run that decision past a general-purpose model with your context pasted in, and read the reasoning. You will learn more about whether an AI CMO would help you than any vendor demo will show you, and the page you wrote makes every tool you try afterwards materially better.
+Before evaluating any product in this category, write the one page describing your store, and pick one recurring decision you would want help with: the email, the collection page, the next test. Run that decision past a general-purpose model with your context pasted in, and read the reasoning. You will learn more about whether an AI CMO would help you than any vendor demo will show you, and the page you wrote makes every tool you try afterwards materially better.

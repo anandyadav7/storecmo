@@ -11,7 +11,7 @@ const sans = Figtree({ subsets: ["latin"], variable: "--font-figtree", display: 
 const display = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage", display: "swap" });
 const mono = DM_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-dm-mono", display: "swap" });
 
-const defaultTitle = `${siteConfig.name} — ${siteConfig.tagline}`;
+const defaultTitle = `${siteConfig.name}: ${siteConfig.tagline}`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),

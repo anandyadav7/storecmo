@@ -38,16 +38,16 @@ export default function ProfitMarginCalculator() {
       }
       results={
         <>
-          <ResultRow label="Total cost per order" value={result ? money(result.totalCost) : "—"} />
-          <ResultRow label="Profit per order" value={result ? money(result.profit) : "—"} primary />
+          <ResultRow label="Total cost per order" value={result ? money(result.totalCost) : "-"} />
+          <ResultRow label="Profit per order" value={result ? money(result.profit) : "-"} primary />
           <ResultRow
             label="Profit margin"
-            value={result ? percent(result.marginPct) : "—"}
+            value={result ? percent(result.marginPct) : "-"}
             detail={result && result.profit < 0 ? "This order loses money before fixed costs. Something has to change: price, costs, or ad spend." : undefined}
           />
         </>
       }
-      note="Example numbers — replace them with one real order. Runs entirely in your browser; nothing is stored or sent anywhere."
+      note="Example numbers. Replace them with one real order. Runs entirely in your browser; nothing is stored or sent anywhere."
       onReset={reset}
     />
   );

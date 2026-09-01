@@ -44,10 +44,10 @@ export default function LtvCacCalculator() {
       }
       results={
         <>
-          <ResultRow label="Lifetime value (margin)" value={result ? money(result.ltv) : "—"} />
+          <ResultRow label="Lifetime value (margin)" value={result ? money(result.ltv) : "-"} />
           <ResultRow
             label="LTV : CAC ratio"
-            value={result ? (result.ratio === null ? "n/a" : `${result.ratio.toLocaleString("en-US", { maximumFractionDigits: 1 })} : 1`) : "—"}
+            value={result ? (result.ratio === null ? "n/a" : `${result.ratio.toLocaleString("en-US", { maximumFractionDigits: 1 })} : 1`) : "-"}
             primary
             detail={
               result
@@ -55,13 +55,13 @@ export default function LtvCacCalculator() {
                   ? "Enter a CAC above zero to compute the ratio."
                   : result.ratio < 1
                     ? "Each customer is worth less than they cost to acquire. Fix margin or offer before scaling spend."
-                    : "A common rule of thumb treats around 3:1 as healthy — but read it against your own payback needs."
+                    : "A common rule of thumb treats around 3:1 as healthy, but read it against your own payback needs."
                 : undefined
             }
           />
         </>
       }
-      note="Example numbers — replace them with your store's real history. Runs entirely in your browser; nothing is stored or sent anywhere."
+      note="Example numbers. Replace them with your store's real history. Runs entirely in your browser; nothing is stored or sent anywhere."
       onReset={reset}
     />
   );

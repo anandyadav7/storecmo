@@ -6,3 +6,5 @@
 - Keep copy honest about status: the product is **in development**. Do not describe features as available.
 - Articles: open with a direct answer, use question-style headings, include a `## Frequently asked questions` section with `###` questions (it feeds FAQPage schema), never invent stats, customers, or results.
 - Run `npm test`, `npm run lint`, `npm run typecheck`, and `npm run build` before calling work done.
+- Copy style: no em dashes anywhere in site copy (articles, tool text, UI strings, metadata). Use a
+  full stop, comma, colon, or brackets instead, and rewrite the sentence if none of those read naturally.

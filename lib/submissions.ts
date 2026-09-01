@@ -3,8 +3,8 @@
  * each submission is POSTed as JSON to a webhook you configure (Formspree,
  * Zapier, Make, a Slack incoming webhook, or the future StoreCMO backend).
  *
- *   WAITLIST_WEBHOOK_URL  — receives { kind: "waitlist", email, submittedAt, source }
- *   CONTACT_WEBHOOK_URL   — receives { kind: "contact", name, email, message, submittedAt, source }
+ *   WAITLIST_WEBHOOK_URL  receives { kind: "waitlist", email, submittedAt, source }
+ *   CONTACT_WEBHOOK_URL   receives { kind: "contact", name, email, message, submittedAt, source }
  *
  * When a URL is not configured the submission is logged to the server console
  * so nothing is silently dropped during local development.

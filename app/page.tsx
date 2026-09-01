@@ -11,7 +11,7 @@ import { pageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = pageMetadata({
-  title: `${siteConfig.name} — ${siteConfig.tagline}`,
+  title: `${siteConfig.name}: ${siteConfig.tagline}`,
   absoluteTitle: true,
   description: siteConfig.description,
   path: "/",
@@ -162,7 +162,7 @@ export default function HomePage() {
       </section>
 
       <CtaBand source="home-footer" />
-      <JsonLd data={webPageSchema({ name: `${siteConfig.name} — ${siteConfig.tagline}`, description: siteConfig.description, path: "/" })} />
+      <JsonLd data={webPageSchema({ name: `${siteConfig.name}: ${siteConfig.tagline}`, description: siteConfig.description, path: "/" })} />
     </>
   );
 }
