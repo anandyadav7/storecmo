@@ -50,3 +50,7 @@ Per-page title, description, canonical, full Open Graph + Twitter (helper: `lib/
 ## Content voice
 
 Plain, specific, calmly opinionated, honest about status. Never invent stats, customers, or results. "We" refers only to the people building StoreCMO. The product is described as being built, never as available.
+
+## Blog explanatory visuals (2026-09-04)
+
+Each of the six current Markdown posts has one purpose-built SVG diagram, placed next to the section it explains. The visuals use the Soft Commerce palette and rounded-card language; they are diagrams rather than raster artwork so labels stay accurate, accessible and lightweight. Assets live in `public/images/blog/`, references and descriptive alt text live in each article, and `tests/blog-images.test.ts` prevents a post from losing its planned visual reference. Do not replace these with generic AI imagery or fabricated dashboards. The complete set was committed and pushed to `main` as `740b06d` (`Add explanatory visuals to all blog posts`) after `npm test` (39 tests), `npm run lint`, `npm run typecheck`, and `npm run build` passed.
