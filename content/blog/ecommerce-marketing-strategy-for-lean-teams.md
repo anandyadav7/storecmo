@@ -31,6 +31,8 @@ Strip away the jargon and an ecommerce marketing strategy has five parts:
 
 Each part is covered below. The order matters: do the store math first, because it tells you where the other four parts should focus.
 
+![Five-part ecommerce marketing strategy loop covering growth opportunity, customer positioning, channels, calendar, and weekly measurement.](/images/blog/lean-ecommerce-strategy-loop.svg)
+
 ## Step 1: Find where the growth actually is
 
 Revenue in an online store is the product of four numbers. Which one you work on is the single most important strategic decision, and it is the one most teams never make explicitly.

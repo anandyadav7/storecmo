@@ -19,6 +19,8 @@ If that is your situation, the worst thing you can do is copy the channel mix of
 
 ## The order of operations, and why it matters
 
+![Four-stage sequence for small-budget ecommerce marketing: conversion first, then retention, owned traffic, and narrowly targeted paid acquisition.](/images/blog/small-budget-marketing-sequence.svg)
+
 Think of the store as four stages stacked on top of each other. Money and effort flow best from the bottom up.
 
 | Stage | What it does | Why it comes in this order |

@@ -65,6 +65,8 @@ Two points from the evidence carry over from the enterprise case. Improvado's fr
 
 Because a recommendation you cannot inspect is a recommendation you cannot safely approve. This is the part most AI marketing pitches skip.
 
+![Human oversight loop showing an AI recommendation with reasoning reviewed by a marketer before action and outcome review.](/images/blog/ai-cmo-human-oversight-loop.svg)
+
 Regulators have already codified what meaningful oversight requires. [VerifyWise's summary of EU AI Act Article 14](https://verifywise.ai/lexicon/human-oversight-in-ai) sets out what the people overseeing a high-risk system have to be able to do: grasp its capabilities and limits, spot signs that it is malfunctioning, read its output correctly, and "override it when needed". Your store is not a high-risk system under that law, but those four abilities are a good specification for any tool that recommends where your money goes.
 
 Without visible reasoning, review degrades into rubber-stamping: you click approve because the output looks confident, not because you checked it. [Cornerstone](https://www.cornerstoneondemand.com/resources/article/the-crucial-role-of-humans-in-ai-oversight/) makes the accountability case, arguing that it is human oversight that allows errors or biases arising in AI operations to be identified and put right.

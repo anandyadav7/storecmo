@@ -41,6 +41,8 @@ None of these are reasons to avoid AI. They are reasons to use it for the layers
 
 A useful way to evaluate any AI marketing tool, or your own use of a general model, is to ask which layer it works in.
 
+![Three-layer model showing analysis informing decisions, which guide execution, with most AI tools concentrated in execution.](/images/blog/ai-marketing-three-layers.svg)
+
 | Layer | What it does | Example for a store | Where most tools sit |
 | --- | --- | --- | --- |
 | Analysis | Reads data and the market; tells you what is true | "Conversion on your top three collection pages fell after the template change; mobile add-to-cart dropped most." | Few |

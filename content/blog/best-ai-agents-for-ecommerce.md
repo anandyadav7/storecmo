@@ -29,6 +29,8 @@ Two criteria do most of the sorting. **Store context**: does the agent work from
 
 Every row is drawn from the vendor's own product page, including the [Shopify Sidekick page](https://www.shopify.com/sidekick) for the last row.
 
+![Decision map connecting common ecommerce bottlenecks to support, conversion, retention, measurement, and store-admin AI agents.](/images/blog/ecommerce-ai-agent-bottleneck-map.svg)
+
 ## Which agent is right for your bottleneck?
 
 **Support volume: Gorgias AI Agent.** It automatically handles order tracking, returns and FAQs, offers discounts and upsells based on live inventory and shopper data, and lets you view the reasoning behind every AI response so you can correct it with a thumbs up or a guidance tweak. Best when tickets are eating your week.

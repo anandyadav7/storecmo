@@ -25,6 +25,8 @@ Strip away the positioning and every product in this category is claiming some c
 
 If you read that table against our [three layers of AI marketing](/blog/ai-marketing-for-ecommerce), the pattern is familiar: almost every tool sold to store owners lives in execution, while the layers a lean team is actually missing are the two above it.
 
+![Capability ladder from analysis and prioritisation through strategy and execution, with human judgment shown as the final boundary.](/images/blog/ai-cmo-capability-ladder.svg)
+
 ## How is an AI CMO different from marketing automation or a dashboard?
 
 The difference is decision authority, not features. Marketing automation runs the workflow you designed: you build the abandoned-cart flow, set the triggers, and the platform follows your rules faithfully for years. CDP.com puts the split usefully: automation "follows a script," while an AI CMO "writes and rewrites the script."
