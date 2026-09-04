@@ -2,7 +2,7 @@
 title: The Complete Ecommerce Marketing Strategy for Lean Teams
 description: A practical, one-page approach to ecommerce marketing strategy for stores run by one or two people. Where growth comes from, which channels to commit to, and what to measure every week.
 publishedAt: 2026-08-20
-updatedAt: 2026-08-22
+updatedAt: 2026-09-04
 category: Ecommerce marketing
 tags: ecommerce marketing, marketing strategy, ecommerce growth, lean teams
 seoTitle: The Complete Ecommerce Marketing Strategy for Lean Teams
@@ -29,7 +29,7 @@ Strip away the jargon and an ecommerce marketing strategy has five parts:
 4. **Offer and merchandising.** What you lead with: hero products, bundles, shipping thresholds, guarantees, the things that make the site convert.
 5. **Measurement and cadence.** A short weekly scorecard and a monthly review, so the plan changes when the numbers do.
 
-Each part is covered below. The order matters: do the store math first, because it tells you where the other four parts should focus.
+Those five parts are the whole lean marketing framework. Nothing else needs adding, and dropping any one of them leaves a gap you will feel a quarter later. Each part is covered below. The order matters: do the store math first, because it tells you where the other four parts should focus.
 
 ![Five-part ecommerce marketing strategy loop covering growth opportunity, customer positioning, channels, calendar, and weekly measurement.](/images/blog/lean-ecommerce-strategy-loop.svg)
 
@@ -160,4 +160,4 @@ AI can help with most of the steps above: analysing your store's numbers, cluste
 
 ## What to do this week
 
-Pull last quarter's numbers for the four levers, pick the one with the most room to move, and fill in the one-page template, even roughly. Then choose the two channels that match that lever and your capacity, and write the sentence for each channel you are not going to do. That is a strategy. Everything after it is execution.
+Pull last quarter's numbers for the four levers, pick the one with the most room to move, and fill in the one-page template, even roughly. Then choose the two channels that match that lever and your capacity, and write the sentence for each channel you are not going to do. That is a lean marketing strategy: one page, four decisions, and a short list of numbers to watch. Everything after it is execution.

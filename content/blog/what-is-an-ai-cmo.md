@@ -2,14 +2,14 @@
 title: "What Is an AI CMO? A Field Guide for Stores Without One"
 description: An AI CMO is software that tries to do the thinking a marketing lead does: read the data, decide what matters, and help execute it. What the term actually covers today, which parts work, and how to judge one if you run a store on your own.
 publishedAt: 2026-08-31
-updatedAt: 2026-08-31
+updatedAt: 2026-09-04
 category: AI marketing
 tags: AI CMO, AI marketing, ecommerce marketing, marketing strategy
 seoTitle: "What Is an AI CMO? A Field Guide for Lean Ecommerce Teams"
 seoDescription: What an AI CMO is, what the term covers in practice, which of its five functions genuinely work today, where it fails, and how to evaluate one if you run a store alone.
 ---
 
-An AI CMO is software that tries to do the job a chief marketing officer does: read what is happening across your channels, decide what matters most, turn that into a plan, and help carry it out. The honest version of the definition includes a caveat that most vendor pages leave out, and that the [CDP.com glossary](https://cdp.com/glossary/ai-cmo/) states plainly: the concept "does not describe a single product but a capability tier." Two products with the same label can be doing entirely different jobs, one summarising dashboards and one publishing changes to your live site without asking. This guide is about telling those apart, and about which parts of the job are genuinely worth handing over when there is only one of you.
+An AI CMO is software that tries to do the job a chief marketing officer does: read what is happening across your channels, decide what matters most, turn that into a plan, and help carry it out. The honest version of the definition includes a caveat that most vendor pages leave out, and that the [CDP.com glossary](https://cdp.com/glossary/ai-cmo/) states plainly: the concept "does not describe a single product but a capability tier." Two products with the same label can be doing entirely different jobs, one summarising dashboards and one publishing changes to your live site without asking. So the AI CMO meaning that matters is the one you pin down in a demo, not the one printed on a pricing page. This guide is about telling those apart, and about which parts of the job are genuinely worth handing over when there is only one of you.
 
 ## What does an AI CMO actually claim to do?
 
@@ -88,6 +88,10 @@ For full transparency: StoreCMO is being built as an AI CMO for ecommerce, and i
 - **What happens when it is wrong?** There should be a review step before anything spends money or reaches a customer.
 
 ## Frequently asked questions
+
+### What does "AI CMO" mean, exactly?
+
+It means software doing some part of a marketing lead's thinking: reading channel data, ranking what matters, proposing a plan, and in some products acting on it. There is no agreed definition behind the label, which is why CDP.com calls it a capability tier rather than a product category. Treat the term as a starting question, not an answer: ask which of the five functions in the table above a given tool actually performs.
 
 ### Does an AI CMO replace a human marketing lead?
 
