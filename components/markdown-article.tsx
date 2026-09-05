@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Fragment } from "react";
 import { parseInline, parseMarkdown, type Block } from "@/lib/markdown";
+import { blogImages } from "@/lib/blog-images";
 
 export function Inline({ text }: { text: string }) {
   return (
@@ -17,10 +18,22 @@ export function Inline({ text }: { text: string }) {
             ) : (
               <a key={index} href={node.href} rel="noopener">{node.text}</a>
             );
-          case "image":
+          case "image": {
             // Article images are authored per post and may be remote; plain <img> keeps the renderer dependency-free.
-            // eslint-disable-next-line @next/next/no-img-element
-            return <img key={index} src={node.src} alt={node.alt} loading="lazy" />;
+            const filename = node.src.split("/").pop() ?? "";
+            const meta = blogImages[filename];
+            return (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                key={index}
+                src={node.src}
+                alt={node.alt}
+                loading="lazy"
+                decoding="async"
+                {...(meta ? { width: meta.width, height: meta.height } : {})}
+              />
+            );
+          }
           default:
             return <Fragment key={index}>{node.text}</Fragment>;
         }
