@@ -5,6 +5,7 @@ import { join } from "node:path";
 
 const articles = [
   ["ai-tools-for-ecommerce-marketing", "ecommerce-ai-tool-jobs-map.svg", "Six ecommerce marketing jobs mapped to the AI tools that fit them, with production jobs shown as crowded and the decision layer above them shown as sparse."],
+  ["ai-ecommerce-marketing", "ai-ecommerce-marketing-four-weeks.svg", "Four-week setup for AI in ecommerce marketing: build context, hand over one job, add a review step, then decide what to keep."],
   ["ai-marketing-for-ecommerce", "ai-marketing-three-layers.svg", "Three-layer model showing analysis informing decisions, which guide execution, with most AI tools concentrated in execution."],
   ["best-ai-agents-for-ecommerce", "ecommerce-ai-agent-bottleneck-map.svg", "Decision map connecting common ecommerce bottlenecks to support, conversion, retention, measurement, and store-admin AI agents."],
   ["ecommerce-marketing-strategy-for-lean-teams", "lean-ecommerce-strategy-loop.svg", "Five-part ecommerce marketing strategy loop covering growth opportunity, customer positioning, channels, calendar, and weekly measurement."],
