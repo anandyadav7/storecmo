@@ -2,7 +2,7 @@
 title: "Should You Let an AI CMO Decide? What It Means for Marketing Leadership in 2026"
 description: "If you run marketing for an ecommerce store, the practical question about an AI CMO is simple: does it decide, or does it recommend? Right now, it recommends, and the value is a defensible answer to what to do this month that you can inspect before you act."
 publishedAt: 2026-09-01
-updatedAt: 2026-09-02
+updatedAt: 2026-09-08
 category: AI marketing
 tags: AI CMO, AI marketing, marketing leadership, ecommerce marketing
 seoTitle: "Should You Let an AI CMO Decide? What It Means for Marketing Leadership in 2026"
@@ -93,9 +93,9 @@ And creative judgment stays human. BCG's position is that AI "cannot feel emotio
 
 Today, it recommends, and both main definitions in circulation keep the final call human. CDP.com states plainly that "an AI CMO augments human marketing leadership rather than replacing it", with human CMOs still owning "brand strategy, creative direction, cultural judgment, and board relationships". Improvado's answer matches: the system "handles data analysis, pattern recognition, and decision support", while strategic vision, creative judgment, team leadership and stakeholder management stay with the person.
 
-### Is there a "first AI CMO"?
+### Should you trust a vendor that calls itself the first AI CMO?
 
-Not in any documented sense we can point to. CDP.com describes "AI CMO" as "a capability tier, not a category you buy off the shelf", something organisations grow into rather than a product with a first release. If a vendor claims the title, ask what specifically it decides without a human sign-off.
+Treat the claim as neutral. CDP.com describes "AI CMO" as "a capability tier, not a category you buy off the shelf", something organisations grow into rather than a product with a first release, so "first" reflects a branding decision rather than a milestone. Ask what the system decides without a human sign-off. We went through who is actually claiming the title, and the four tests a genuine first would have to pass, in [the first AI CMO](/blog/first-ai-cmo).
 
 ### What data does an AI CMO need to be useful for a store?
 

@@ -11,6 +11,7 @@ export const blogImages: Record<string, BlogImageMeta> = {
   "ai-cmo-capability-ladder.svg": { width: 1200, height: 675 },
   "ai-cmo-human-oversight-loop.svg": { width: 1200, height: 675 },
   "ai-ecommerce-marketing-four-weeks.svg": { width: 1200, height: 675 },
+  "first-ai-cmo-title-vs-authority.svg": { width: 1200, height: 675 },
   "ai-marketing-three-layers.svg": { width: 1200, height: 675 },
   "ecommerce-ai-agent-bottleneck-map.svg": { width: 1200, height: 675 },
   "ecommerce-ai-tool-jobs-map.svg": { width: 1200, height: 675 },
