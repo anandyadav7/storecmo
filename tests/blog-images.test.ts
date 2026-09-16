@@ -4,6 +4,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 
 const articles = [
+  ["reduce-cart-abandonment-rate", "cart-abandonment-fix-order.svg", "Five-step order for reducing cart abandonment: name the leaking checkout step, shortlist the causes that fit it, estimate recoverable orders from your own traffic, ship the lowest-effort fix, then measure that step before changing anything else."],
   ["ai-tools-for-ecommerce-marketing", "ecommerce-ai-tool-jobs-map.svg", "Six ecommerce marketing jobs mapped to the AI tools that fit them, with production jobs shown as crowded and the decision layer above them shown as sparse."],
   ["how-to-write-a-product-description-that-sells", "product-description-objection-order.svg", "Four-part order for a product description: answer the objection, prove it with a specific detail, add fit and use context, then close the risk, with a generic opening line rewritten as a specific one."],
   ["first-ai-cmo", "first-ai-cmo-title-vs-authority.svg", "Comparison of what an AI CMO announcement grants versus what a chief marketing officer role actually carries: title and visibility transfer, while budget authority, accountability and reversal rights stay human."],
