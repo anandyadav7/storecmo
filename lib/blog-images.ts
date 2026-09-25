@@ -9,6 +9,7 @@ export type BlogImageMeta = { width: number; height: number };
 
 export const blogImages: Record<string, BlogImageMeta> = {
   "ai-cmo-capability-ladder.svg": { width: 1200, height: 675 },
+  "ltv-calculation-stages.svg": { width: 1200, height: 675 },
   "cart-abandonment-fix-order.svg": { width: 1200, height: 675 },
   "ai-cmo-human-oversight-loop.svg": { width: 1200, height: 675 },
   "ai-ecommerce-marketing-four-weeks.svg": { width: 1200, height: 675 },
