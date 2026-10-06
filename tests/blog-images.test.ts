@@ -4,6 +4,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 
 const articles = [
+  ["first-click-vs-last-click-attribution", "attribution-first-vs-last-rank-swap.svg", "Two ranked channel lists side by side, one under first click attribution and one under last click, with lines connecting each channel across them. Organic search and direct hold their rank, Instagram falls from second to fifth, and email rises from fourth to second."],
   ["repeat-purchase-rate-benchmarks", "repeat-purchase-rate-windows.svg", "Cohort grid showing the same customers producing 18%, 28% or 42% repeat purchase rate depending only on whether the number is read at 30 days, 90 days or 12 months after the first order."],
   ["how-to-read-shopify-analytics", "shopify-analytics-five-number-ladder.svg", "Five-rung ladder for reading Shopify Analytics in order: sessions, the leaking funnel step, average order value, repeat purchase, then profit, with the instruction to stop at the first rung that broke and make that the month's only fix."],
   ["customer-lifetime-value-calculation-ecommerce", "ltv-calculation-stages.svg", "Three stages of ecommerce lifetime value calculation gated by order history: a fixed window under twelve months, cohorts once a repeat cycle has passed, and Shopify projections only after twenty-four months, all measured in contribution margin."],
