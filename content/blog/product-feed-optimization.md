@@ -2,7 +2,7 @@
 title: "Product Feed Optimization Steps for Small Shopify Stores"
 description: "A three-tier running order for a small Shopify product feed, covering the eligibility fixes that come first, the fields that decide which searches you match, and the ones a lean team can leave for later."
 publishedAt: 2026-10-12
-updatedAt: 2026-10-12
+updatedAt: 2026-10-28
 category: Ecommerce marketing
 tags: product feed, Google Shopping, Merchant Center, Shopify catalogue, feed attributes
 seoTitle: "Product Feed Optimization Steps for Small Shopify Stores"
@@ -52,6 +52,8 @@ Titles are the highest-leverage edit in the second pass. [Google's title documen
 A workable pattern is brand, then product type, then the distinguishing variant detail such as size and colour. Front-load whatever a shopper would type. Google also tells merchants not to use words from foreign languages in a title unless they are well understood, such as a product with a foreign name or title.
 
 Rewrite the top twenty sellers by hand first. Everything below the top twenty can wait for a rule applied in bulk.
+
+If you are weighing whether to put that same catalog effort into TikTok Shop instead, run the numbers first in our piece on [whether TikTok Shop is worth it for a small ecommerce brand](/blog/is-tiktok-shop-worth-it).
 
 ## What makes a product image fail, and what can you check yourself?
 

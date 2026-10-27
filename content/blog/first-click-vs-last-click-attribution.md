@@ -2,7 +2,7 @@
 title: "First Click vs Last Click Attribution for Small Stores"
 description: "Read one date range under both attribution models, then act only on the channels whose rank swaps between the two views. This guide covers what each model credits, where to switch in Shopify, and where the comparison stops being trustworthy at low order counts."
 publishedAt: 2026-10-06
-updatedAt: 2026-10-06
+updatedAt: 2026-10-28
 category: Ecommerce marketing
 tags: attribution models, first click attribution, last click attribution, Shopify Analytics, channel budgeting
 seoTitle: "First Click vs Last Click Attribution for Small Stores"
@@ -50,6 +50,8 @@ Because a first click in Shopify is window-bound rather than lifetime. If a sess
 Shopify's documentation works through the effect. Someone arrives on August 1 by typing your store URL, comes back several times without buying, then clicks an ad on September 15 and orders. Both the first and the last interaction for that conversion are the ad, not the direct URL. The visit more than 30 days earlier has dropped out.
 
 GA4 handles the same problem with an explicit lookback window instead. [Google's attribution settings](https://support.google.com/analytics/answer/10597962?hl=en) default to 30 days for acquisition key events (first_open and first_visit) and 90 days for all other key events, with shorter options selectable. So the same purchase can carry two different first channels depending on which tool you opened.
+
+Before adding TikTok Shop as another referrer to track, weigh its commission and content cost against your margin in our article on [whether TikTok Shop is worth it](/blog/is-tiktok-shop-worth-it).
 
 ## Why can't you find first click in GA4 or Google Ads anymore?
 
