@@ -33,7 +33,7 @@ A [guide from the fulfilment firm Kirkwood](https://kirkwoodus.com/what-are-the-
 - **The frequency** of abandonment
 - **The types of products** left behind
 
-Lay out the checkout as a sequence of steps and note how many sessions reach each one. The step with the steepest fall is the one to work on first.
+Lay out the checkout as a sequence of steps and note how many sessions reach each one. The step with the steepest fall is the one to work on first. If the shipping page is where carts fall apart because a promised date later slips, pair that fix with a [shipping delay email template that prevents refunds](/blog/shipping-delay-email-template).
 
 There is a low-cost check to run alongside the data, from the same guide: have friends and family shop on your site and work through checkout, then note what trips them up. It costs an afternoon and it catches the kind of problem analytics only shows you as a number.
 
