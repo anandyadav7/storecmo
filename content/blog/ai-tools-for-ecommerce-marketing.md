@@ -68,7 +68,7 @@ This is where production tools and agents blur, so the useful question is not wh
 
 [Omnisend](https://www.omnisend.com/) states its boundary cleanly. Its AI writes copy, picks send times and segments the audience, and then, in the platform's own words, "You just hit approve." That last clause is the whole design decision, and it is the right one. Klaviyo's equivalent goes further into agent territory, which is why we covered it in [the agents comparison](/blog/best-ai-agents-for-ecommerce) rather than here.
 
-Two things stay yours regardless of platform. The **offer** is a business decision that no model can make for you, because it depends on margin the tool cannot see. And **send frequency** is a brand decision disguised as an optimisation: a system asked to maximise revenue this quarter will find that emailing more works, right up until your list stops opening.
+Two things stay yours regardless of platform. The **offer** is a business decision that no model can make for you, because it depends on margin the tool cannot see. And **send frequency** is a brand decision disguised as an optimisation: a system asked to maximise revenue this quarter will find that emailing more works, right up until your list stops opening. Letting a tool pick send times and segments is only useful if those emails actually land, which is the question our guide to [email deliverability for a small ecommerce store](/blog/email-deliverability) works through.
 
 ## Ads: why the most important AI is already inside the platform
 

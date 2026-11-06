@@ -17,7 +17,7 @@ Swipe copy volume is not what holds review counts down. Timing and friction are.
 
 ## What does a review request email actually need to contain?
 
-Five parts, nothing else.
+Five parts, nothing else. None of them matter if the request lands in spam instead of the inbox, which is why checking your sending domain and weekly delivery signals comes first, as covered in our guide to [email deliverability for a small ecommerce store](/blog/email-deliverability).
 
 1. **Sender**: a name customers recognise from the order confirmation.
 2. **Subject line**: name the product they bought.
