@@ -54,7 +54,7 @@ A weight-based flat rate only calculates correctly when every product carries a 
 
 ## What can Shopify's shipping settings actually express?
 
-More than most stores use, with four constraints worth knowing before you plan a policy around them, all set out on Shopify's page for setting up shipping zones and rates.
+More than most stores use, with four constraints worth knowing before you plan a policy around them, all set out on Shopify's page for setting up shipping zones and rates. Shipping rates also become the second step once you have picked a single country to sell into, as covered in [picking one country first for international Shopify selling](/blog/selling-internationally-shopify).
 
 - **Weight-based rates need weights.** If you plan to charge by weight, every product must carry a weight value, or rates will not calculate correctly at checkout.
 - **Built-in carrier rates are on all plans.** Integrations such as USPS in the United States or Canada Post in Canada are available on every plan.

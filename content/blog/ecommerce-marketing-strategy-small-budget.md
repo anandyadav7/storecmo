@@ -34,7 +34,7 @@ Most small stores do these in exactly the reverse order, because paid media is t
 
 ## Stage 1: Make the traffic you have count
 
-Conversion work costs time rather than money, which makes it the right place to start. You do not need an optimisation program. You need to remove the obvious reasons people leave.
+Conversion work costs time rather than money, which makes it the right place to start. You do not need an optimisation program. You need to remove the obvious reasons people leave. The same logic applies when you expand abroad, where [picking one country your Shopify data already shows demand from](/blog/selling-internationally-shopify) keeps the work small.
 
 - **Product pages.** Clear photos from several angles, the sizing or specification questions answered on the page, shipping cost and delivery time visible before checkout, reviews near the buy button. Most conversion problems in small stores are missing information, not missing persuasion.
 - **Trust.** A returns policy you would accept yourself, a contact method that looks real, a guarantee if you can afford one. People buying from a store they have not heard of are looking for reasons to believe it exists.
