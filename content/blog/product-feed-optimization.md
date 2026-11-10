@@ -67,7 +67,7 @@ Call in whoever runs your theme or feed app when the images in Merchant Center a
 
 Yes, and they are two different fields. Product type is your own store-specific categorisation, and the values you choose organise bidding and reporting in your Shopping campaign, while the [Google product category](https://support.google.com/merchants/answer/6324436?hl=en) must come from Google's predefined taxonomy, submitted as either the category ID or the full path and never both, with the most specific category beating a broad parent such as Electronics (ID: 222), which Google calls too vague for effective automated bidding.
 
-For a few hundred SKUs a spreadsheet is enough. Export the feed, group the rows by product type with a count of how many products sit in each, then map type by type. [ZATO Marketing](https://zatomarketing.com/blog/google-shopping-feed-optimization-what-works-in-2026) singles out product type as one of the most commonly left blank or carelessly filled attributes, and a reasonable place to put your energy first.
+For a few hundred SKUs a spreadsheet is enough. Export the feed, group the rows by product type with a count of how many products sit in each, then map type by type. [ZATO Marketing](https://zatomarketing.com/blog/google-shopping-feed-optimization-what-works-in-2026) singles out product type as one of the most commonly left blank or carelessly filled attributes, and a reasonable place to put your energy first. If you are wondering whether clean product data also matters for AI answers, see [how LLM SEO works for a small ecommerce store](/blog/llm-seo).
 
 ## Which feed fields can wait until later?
 
