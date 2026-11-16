@@ -72,7 +72,7 @@ Klaviyo still publishes an open-rate benchmark of at least 33%, regardless of in
 
 ## How do you keep the list healthy without gutting it?
 
-Yahoo asks senders to mail only people who specifically requested it, and to avoid buying mailing lists or subscribing people through an opt-in checkbox that is checked by default on your site. Confirmed opt-in, where a subscriber clicks to confirm, keeps fake addresses and accidental signups off the list. Yahoo suggests a reconfirmation email to inactive recipients, and [Google's Postmaster Tools setup page](https://support.google.com/mail/answer/9981691) suggests periodically sending messages to confirm that recipients want to stay subscribed.
+Yahoo asks senders to mail only people who specifically requested it, and to avoid buying mailing lists or subscribing people through an opt-in checkbox that is checked by default on your site. Confirmed opt-in, where a subscriber clicks to confirm, keeps fake addresses and accidental signups off the list. What you offer for the signup matters too: see [lead magnets for ecommerce that actually grow revenue](/blog/lead-magnets-for-ecommerce). Yahoo suggests a reconfirmation email to inactive recipients, and [Google's Postmaster Tools setup page](https://support.google.com/mail/answer/9981691) suggests periodically sending messages to confirm that recipients want to stay subscribed.
 
 Klaviyo goes further on sourcing: purchasing lists breaches its acceptable use policy and produces profiles that will not engage and are more likely to report you, and it also advises against renting lists, email affiliate marketing, third-party opt-in, and sending to lists previously suppressed for lack of engagement.
 

@@ -45,7 +45,7 @@ Shipping first. Every Shopify store comes with a [general shipping profile](http
 
 Discounts are the bigger surprise, because the margin you see on a product page and the margin a discounted order actually earns are two different figures, and the reports say so. [Shopify's profit reports](https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/profit-reports) state that the margin displayed on the product details page is based on the full price of the product, while the gross margin in the reports is based on net sales, which takes into account any discounts or refunds you offered during the reporting period. Even that reported figure still subtracts only product cost, so it flatters a discounted order twice over.
 
-So price the discount you plan to run, not the list price. If a quarter of your orders carry a 15% code, the price that matters for margin planning is the discounted one.
+So price the discount you plan to run, not the list price. If a quarter of your orders carry a 15% code, the price that matters for margin planning is the discounted one. The same applies to signup offers: [lead magnets for ecommerce that actually grow revenue](/blog/lead-magnets-for-ecommerce) shows how to price a welcome code against the list it builds.
 
 ## What price does your ad payback require?
 
