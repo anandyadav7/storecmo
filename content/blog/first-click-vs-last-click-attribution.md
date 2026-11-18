@@ -55,7 +55,7 @@ Before adding TikTok Shop as another referrer to track, weigh its commission and
 
 ## Why can't you find first click in GA4 or Google Ads anymore?
 
-Because Google withdrew it. First click, linear, time decay and position-based are no longer available as of November 2023, and last click remains. GA4 now offers three models: data-driven, which is the default, plus last click across paid and organic channels and last click across Google paid channels. Check your own property and account if you have not looked recently.
+Because Google withdrew it. First click, linear, time decay and position-based are no longer available as of November 2023, and last click remains. GA4 now offers three models: data-driven, which is the default, plus last click across paid and organic channels and last click across Google paid channels. Check your own property and account if you have not looked recently. Before trusting either model for ad spend decisions, [verify that Google Ads conversion tracking matches your Shopify orders](/blog/google-ads-conversion-tracking-shopify).
 
 For a small store the consequence is simple: Shopify Analytics is where your first-click view now lives. If you want something first-click-shaped inside GA4, [WeltPixel's comparison of GA4 attribution models](https://weltpixel.com/blogs/news/ga4-attribution-models-shopify-data-driven-vs-last-click) points to the Path Exploration report, which surfaces the first touchpoint on a conversion path without you changing the reporting model.
 

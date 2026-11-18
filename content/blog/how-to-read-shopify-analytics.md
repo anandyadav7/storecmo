@@ -21,7 +21,7 @@ Start at the top of the ladder and work down, stopping at the first number that 
 4. **Customer cohort analysis.** Do buyers come back?
 5. **Profit reports.** Does any of it survive costs?
 
-The order matters because each number explains the one below it. A conversion rate drop caused by a flood of cold traffic is not a site problem, and you will misdiagnose it if you skip step one.
+The order matters because each number explains the one below it. A conversion rate drop caused by a flood of cold traffic is not a site problem, and you will misdiagnose it if you skip step one. If you run Google Ads, [check that its conversion tracking matches Shopify's own orders](/blog/google-ads-conversion-tracking-shopify) before reading paid traffic into these numbers.
 
 ![Five-rung ladder for reading Shopify Analytics in order: sessions, the leaking funnel step, average order value, repeat purchase, then profit, with the instruction to stop at the first rung that broke and make that the month's only fix.](/images/blog/shopify-analytics-five-number-ladder.svg)
 
