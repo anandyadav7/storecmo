@@ -97,7 +97,7 @@ Answer it with revenue share, not the repeat rate on its own.
 
 In the BS&Co data, the top consumable brand's repeat buyers were 44% of customers and generated 66.5% of total revenue, roughly 1.5x their share of the customer base. Mid-tier consumable brands at 39-41% repeat rates produced 62-64% of revenue, the same over-index. Fashion and durable brands at 15-17% repeat rates produced 13-19% of revenue, which is roughly 1:1.
 
-That split is the decision. Where repeat buyers over-index on revenue, they are subsidising the business, so retention flows, subscription incentives and replenishment reminders earn their keep. Where repeat buyers spend proportionally to their share, growth comes from new customer acquisition and maximising first-purchase AOV, and retention is a bonus rather than the business model.
+That split is the decision. Where repeat buyers over-index on revenue, they are subsidising the business, so retention flows, subscription incentives and replenishment reminders earn their keep. A high repeat rate also makes store credit the cheaper [referral reward](/blog/referral-incentive-ideas), since it gets spent back with you. Where repeat buyers spend proportionally to their share, growth comes from new customer acquisition and maximising first-purchase AOV, and retention is a bonus rather than the business model.
 
 Prooflytics makes the cost case from its own data, putting second-order acquisition at 5-7x less than first-order acquisition. Finsi's threshold is the practical one: below 20% a store is acquisition-dependent, and the advice is not to scale ad spend until the post-purchase flow and second-order conversion improve.
 
